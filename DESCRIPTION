@@ -1,0 +1,28 @@
+Package: MOAL
+Type: Package
+Title: Mechanism-of-action Landscape
+Version: 0.99.0
+Authors@R: c(
+	person(given = c("Belinda", "B."),
+		 family = "Garana", 
+		 role = c("aut", "cre"),
+		 email = "garana.belinda@gmail.com",
+		 comment = c(ORCID = "0000-0001-8906-5270")))
+Description: Resistance is a major barrier to cancer remission. However, it is not practical to test all the millions of potential drug combinations due to cost limitations. To help prioritize drug pairings for further evaluation, we studied the similarity of drugs grouped by mechanisms-of-action (MOA) in published drug screens. With this process, termed the Mechanism-of-action Landscape (MOAL), 131 drug MOA pairings were prioritized from more than 1.8 million potential drug pairings. Though this method does not evaluate synergy, it has been used to study more than a thousand drugs whereas other methods have only studied on the order of ten to one hundred drugs.
+License: CC0
+URL: https://belindabgarana.github.io/MOAL, https://github.com/BelindaBGarana/MOAL
+BugReports: https://github.com/BelindaBGarana/MOAL/issues
+Encoding: UTF-8
+biocViews:
+	BiomedicalInformatics, GraphAndNetwork, NetworkEnrichment, 
+	Regression, SystemsBiology, QualityControl
+Imports:
+	data.table, DMEA, dplyr, ggplot2, ggrepel, ggvenn, 
+	gridExtra, metap, sjmisc, stats, testthat
+VignetteBuilder: knitr
+Suggests: BiocStyle, knitr, rmarkdown
+Collate:
+	'landscape_1d.R'
+	'landscape_2d.R'
+	'landscape.R'
+	'performance.R'
