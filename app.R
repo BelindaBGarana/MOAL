@@ -202,7 +202,7 @@ ui <- fluidPage(
 server <- function(input, output) {
   url <- a("https://belindabgarana.github.io/MOAL", href = "https://belindabgarana.github.io/MOAL")
   output$info <- renderUI({tagList("For more information or to contact us, please visit: ", url)})
-  output$refresh <- renderText({"Please refresh your web browser after each query to avoid errors. You will also need to refresh this webpage after 5 minutes of inactivity."})
+  output$refresh <- renderText({"Please note that '0' values are < 0.001 and refresh your web browser after each query to avoid errors. You will also need to refresh this webpage after 5 minutes of inactivity."})
   output$fyi <- renderText({"Running query... Please allow 1 to 5 minutes of run time"})
   observeEvent(input$run, {
     # get input parameters
