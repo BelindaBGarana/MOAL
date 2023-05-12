@@ -1,0 +1,20 @@
+"moa","Rank_metric","Drug_set","ES","NES","p_value","Position_at_max","FDR_q_value"
+"EGFR inhibitor","NES","EGFR inhibitor",0.37823,1.17,0.266,90,0.672
+"adrenergic receptor agonist","NES","adrenergic receptor agonist",0.50789,1.56,0.0592,55,0.879
+"adrenergic receptor antagonist","NES","adrenergic receptor antagonist",0.37884,1.17,0.276,42,0.688
+"ATPase inhibitor","NES","ATPase inhibitor",0.54814,1.65,0.0631,42,0.306
+"cyclooxygenase inhibitor","NES","cyclooxygenase inhibitor",0.33507,1.04,0.402,123,0.65
+"DNA synthesis inhibitor","NES","DNA synthesis inhibitor",0.22279,0.667,0.846,111,1
+"dopamine receptor antagonist","NES","dopamine receptor antagonist",-0.40046,-1.22,0.226,184,0.775
+"estrogen receptor antagonist","NES","estrogen receptor antagonist",0.51667,1.62,0.0547,180,0.616
+"FLT3 inhibitor","NES","FLT3 inhibitor",0.52552,1.59,0.0608,141,0.565
+"glucocorticoid receptor agonist","NES","glucocorticoid receptor agonist",0.57854,1.69,0.0425,94,0.207
+"HDAC inhibitor","NES","HDAC inhibitor",0.74826,2.16,0,75,0.0193
+"histamine receptor antagonist","NES","histamine receptor antagonist",-0.59706,-1.86,0.0258,282,0.125
+"HMGCR inhibitor","NES","HMGCR inhibitor",0.54372,1.63,0.0524,173,0.312
+"KIT inhibitor","NES","KIT inhibitor",0.6513,1.92,0.00554,114,0.175
+"PDGFR tyrosine kinase receptor inhibitor","NES","PDGFR tyrosine kinase receptor inhibitor",0.34614,1.03,0.394,147,0.635
+"protein synthesis inhibitor","NES","protein synthesis inhibitor",0.48981,1.49,0.0819,73,0.445
+"topoisomerase inhibitor","NES","topoisomerase inhibitor",0.77216,2.24,0,73,0.00742
+"tubulin polymerization inhibitor","NES","tubulin polymerization inhibitor",0.63856,1.89,0.00856,126,0.118
+"VEGFR inhibitor","NES","VEGFR inhibitor",0.38228,1.14,0.32,69,0.693

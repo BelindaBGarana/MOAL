@@ -1,0 +1,223 @@
+"moa","Rank_metric","Drug_set","ES","NES","p_value","Position_at_max","FDR_q_value"
+"EGFR inhibitor","NES","adrenergic receptor agonist",-0.2376,-0.693,0.794,246,0.799
+"EGFR inhibitor","NES","glucocorticoid receptor agonist",0.66344,1.95,0.0127,83,0.0332
+"EGFR inhibitor","NES","HDAC inhibitor",-0.65199,-1.86,0.0173,255,0.0591
+"EGFR inhibitor","NES","HMGCR inhibitor",0.71314,2.15,0,44,0.0122
+"EGFR inhibitor","NES","phosphodiesterase inhibitor",0.32664,0.941,0.521,100,0.61
+"EGFR inhibitor","NES","ribonucleotide reductase inhibitor",0.43528,1.3,0.168,66,0.281
+"EGFR inhibitor","NES","sodium channel blocker",0.31,0.906,0.549,212,0.552
+"EGFR inhibitor","NES","topoisomerase inhibitor",-0.25939,-0.764,0.712,76,1
+"EGFR inhibitor","NES","tubulin polymerization inhibitor",0.53566,1.55,0.061,115,0.157
+"Abl kinase inhibitor","NES","adrenergic receptor agonist",0.5343,1.55,0.0957,88,0.151
+"Abl kinase inhibitor","NES","glucocorticoid receptor agonist",0.60043,1.78,0.0309,47,0.0974
+"Abl kinase inhibitor","NES","HDAC inhibitor",-0.58346,-1.7,0.04,228,0.114
+"Abl kinase inhibitor","NES","HMGCR inhibitor",0.73913,2.21,0.00207,83,0.00841
+"Abl kinase inhibitor","NES","phosphodiesterase inhibitor",0.20365,0.595,0.901,72,1
+"Abl kinase inhibitor","NES","ribonucleotide reductase inhibitor",0.40134,1.15,0.316,184,0.437
+"Abl kinase inhibitor","NES","sodium channel blocker",-0.29654,-0.846,0.61,262,0.937
+"Abl kinase inhibitor","NES","topoisomerase inhibitor",-0.25,-0.7,0.79,73,0.802
+"Abl kinase inhibitor","NES","tubulin polymerization inhibitor",0.16781,0.489,0.968,255,0.968
+"adrenergic receptor agonist","NES","adrenergic receptor agonist",0.86348,2.48,0,45,0
+"adrenergic receptor agonist","NES","glucocorticoid receptor agonist",-0.38782,-1.1,0.369,224,0.456
+"adrenergic receptor agonist","NES","HDAC inhibitor",-0.61921,-1.74,0.0482,238,0.131
+"adrenergic receptor agonist","NES","HMGCR inhibitor",0.46075,1.35,0.156,163,0.386
+"adrenergic receptor agonist","NES","phosphodiesterase inhibitor",-0.276,-0.772,0.717,226,0.714
+"adrenergic receptor agonist","NES","ribonucleotide reductase inhibitor",0.19512,0.565,0.929,106,0.929
+"adrenergic receptor agonist","NES","sodium channel blocker",-0.54266,-1.5,0.0932,159,0.186
+"adrenergic receptor agonist","NES","topoisomerase inhibitor",0.3906,1.12,0.304,127,0.532
+"adrenergic receptor agonist","NES","tubulin polymerization inhibitor",0.21678,0.63,0.89,236,1
+"adrenergic receptor antagonist","NES","adrenergic receptor agonist",-0.44909,-1.27,0.204,262,0.262
+"adrenergic receptor antagonist","NES","glucocorticoid receptor agonist",0.63448,1.88,0.0248,114,0.0713
+"adrenergic receptor antagonist","NES","HDAC inhibitor",-0.50897,-1.51,0.0976,164,0.225
+"adrenergic receptor antagonist","NES","HMGCR inhibitor",0.32765,0.93,0.502,202,0.679
+"adrenergic receptor antagonist","NES","phosphodiesterase inhibitor",-0.33972,-0.99,0.447,258,0.446
+"adrenergic receptor antagonist","NES","ribonucleotide reductase inhibitor",-0.49305,-1.39,0.145,197,0.238
+"adrenergic receptor antagonist","NES","sodium channel blocker",0.44215,1.29,0.196,124,0.386
+"adrenergic receptor antagonist","NES","topoisomerase inhibitor",-0.62238,-1.85,0.0242,178,0.112
+"adrenergic receptor antagonist","NES","tubulin polymerization inhibitor",0.30254,0.91,0.548,103,0.534
+"ATPase inhibitor","NES","adrenergic receptor agonist",-0.47099,-1.39,0.138,138,0.141
+"ATPase inhibitor","NES","glucocorticoid receptor agonist",0.40037,1.15,0.307,117,0.494
+"ATPase inhibitor","NES","HDAC inhibitor",0.43336,1.25,0.21,120,0.552
+"ATPase inhibitor","NES","HMGCR inhibitor",0.28669,0.821,0.664,214,0.657
+"ATPase inhibitor","NES","phosphodiesterase inhibitor",-0.57523,-1.7,0.0404,267,0.176
+"ATPase inhibitor","NES","ribonucleotide reductase inhibitor",-0.56496,-1.63,0.0626,217,0.117
+"ATPase inhibitor","NES","sodium channel blocker",0.67235,1.96,0.0111,101,0.0549
+"ATPase inhibitor","NES","topoisomerase inhibitor",-0.48031,-1.42,0.123,176,0.166
+"ATPase inhibitor","NES","tubulin polymerization inhibitor",0.34615,0.982,0.463,199,0.573
+"Bcr.Abl kinase inhibitor","NES","adrenergic receptor agonist",0.54615,1.6,0.0742,85,0.122
+"Bcr.Abl kinase inhibitor","NES","glucocorticoid receptor agonist",0.59474,1.73,0.0359,49,0.113
+"Bcr.Abl kinase inhibitor","NES","HDAC inhibitor",-0.57563,-1.69,0.0426,277,0.133
+"Bcr.Abl kinase inhibitor","NES","HMGCR inhibitor",0.75251,2.19,0,79,0.0151
+"Bcr.Abl kinase inhibitor","NES","phosphodiesterase inhibitor",0.20874,0.619,0.892,72,1
+"Bcr.Abl kinase inhibitor","NES","ribonucleotide reductase inhibitor",0.37458,1.09,0.345,192,0.523
+"Bcr.Abl kinase inhibitor","NES","sodium channel blocker",-0.27695,-0.799,0.693,258,1
+"Bcr.Abl kinase inhibitor","NES","topoisomerase inhibitor",-0.25342,-0.726,0.768,74,0.778
+"Bcr.Abl kinase inhibitor","NES","tubulin polymerization inhibitor",0.17123,0.498,0.976,254,0.969
+"cyclooxygenase inhibitor","NES","adrenergic receptor agonist",0.62325,1.82,0.0247,22,0.1
+"cyclooxygenase inhibitor","NES","glucocorticoid receptor agonist",-0.54483,-1.59,0.0732,158,0.171
+"cyclooxygenase inhibitor","NES","HDAC inhibitor",0.51389,1.51,0.0809,150,0.185
+"cyclooxygenase inhibitor","NES","HMGCR inhibitor",0.3413,1.01,0.43,198,0.568
+"cyclooxygenase inhibitor","NES","phosphodiesterase inhibitor",-0.34429,-0.985,0.466,196,0.755
+"cyclooxygenase inhibitor","NES","ribonucleotide reductase inhibitor",-0.29856,-0.864,0.584,201,0.739
+"cyclooxygenase inhibitor","NES","sodium channel blocker",-0.5752,-1.63,0.0568,217,0.296
+"cyclooxygenase inhibitor","NES","topoisomerase inhibitor",0.26832,0.781,0.687,106,0.703
+"cyclooxygenase inhibitor","NES","tubulin polymerization inhibitor",-0.16863,-0.48,0.977,111,0.97
+"DNA synthesis inhibitor","NES","adrenergic receptor agonist",-0.59044,-1.71,0.0463,173,0.222
+"DNA synthesis inhibitor","NES","glucocorticoid receptor agonist",-0.38966,-1.17,0.271,113,0.456
+"DNA synthesis inhibitor","NES","HDAC inhibitor",0.55396,1.59,0.0479,70,0.129
+"DNA synthesis inhibitor","NES","HMGCR inhibitor",-0.48917,-1.5,0.0984,286,0.242
+"DNA synthesis inhibitor","NES","phosphodiesterase inhibitor",-0.33788,-0.979,0.473,99,0.581
+"DNA synthesis inhibitor","NES","ribonucleotide reductase inhibitor",0.23841,0.692,0.796,12,0.81
+"DNA synthesis inhibitor","NES","sodium channel blocker",0.37167,1.06,0.384,35,0.506
+"DNA synthesis inhibitor","NES","topoisomerase inhibitor",0.55867,1.63,0.06,122,0.223
+"DNA synthesis inhibitor","NES","tubulin polymerization inhibitor",-0.3007,-0.862,0.588,86,0.593
+"dopamine receptor antagonist","NES","adrenergic receptor agonist",-0.47782,-1.39,0.138,140,0.417
+"dopamine receptor antagonist","NES","glucocorticoid receptor agonist",0.46992,1.38,0.156,126,0.443
+"dopamine receptor antagonist","NES","HDAC inhibitor",-0.34375,-0.978,0.474,99,0.55
+"dopamine receptor antagonist","NES","HMGCR inhibitor",-0.47702,-1.39,0.141,244,0.417
+"dopamine receptor antagonist","NES","phosphodiesterase inhibitor",-0.38277,-1.1,0.329,187,0.679
+"dopamine receptor antagonist","NES","ribonucleotide reductase inhibitor",-0.36846,-1.07,0.365,255,0.553
+"dopamine receptor antagonist","NES","sodium channel blocker",0.27304,0.81,0.675,218,1
+"dopamine receptor antagonist","NES","topoisomerase inhibitor",-0.25597,-0.763,0.733,163,0.725
+"dopamine receptor antagonist","NES","tubulin polymerization inhibitor",0.26243,0.785,0.715,63,0.702
+"estrogen receptor antagonist","NES","adrenergic receptor agonist",-0.43176,-1.22,0.222,224,0.341
+"estrogen receptor antagonist","NES","glucocorticoid receptor agonist",-0.4739,-1.35,0.174,244,0.277
+"estrogen receptor antagonist","NES","HDAC inhibitor",0.24894,0.747,0.737,128,0.744
+"estrogen receptor antagonist","NES","HMGCR inhibitor",-0.75752,-2.18,0,249,0.0158
+"estrogen receptor antagonist","NES","phosphodiesterase inhibitor",0.39178,1.15,0.292,34,0.586
+"estrogen receptor antagonist","NES","ribonucleotide reductase inhibitor",-0.51988,-1.49,0.11,203,0.225
+"estrogen receptor antagonist","NES","sodium channel blocker",-0.22867,-0.657,0.833,67,0.85
+"estrogen receptor antagonist","NES","topoisomerase inhibitor",-0.27817,-0.78,0.705,133,0.829
+"estrogen receptor antagonist","NES","tubulin polymerization inhibitor",-0.52288,-1.51,0.0835,182,0.315
+"FLT3 inhibitor","NES","adrenergic receptor agonist",-0.39404,-1.08,0.337,265,0.463
+"FLT3 inhibitor","NES","glucocorticoid receptor agonist",0.28372,0.814,0.667,102,1
+"FLT3 inhibitor","NES","HDAC inhibitor",0.23729,0.674,0.865,235,1
+"FLT3 inhibitor","NES","HMGCR inhibitor",0.62966,1.8,0.022,81,0.117
+"FLT3 inhibitor","NES","phosphodiesterase inhibitor",-0.38599,-1.12,0.308,303,0.627
+"FLT3 inhibitor","NES","ribonucleotide reductase inhibitor",-0.25352,-0.716,0.79,161,0.794
+"FLT3 inhibitor","NES","sodium channel blocker",0.35229,0.983,0.453,105,1
+"FLT3 inhibitor","NES","topoisomerase inhibitor",-0.39359,-1.14,0.299,145,1
+"FLT3 inhibitor","NES","tubulin polymerization inhibitor",0.2072,0.596,0.918,36,0.909
+"glucocorticoid receptor agonist","NES","adrenergic receptor agonist",-0.60028,-1.75,0.0343,233,0.098
+"glucocorticoid receptor agonist","NES","glucocorticoid receptor agonist",0.74138,2.11,0.0019,83,0.02
+"glucocorticoid receptor agonist","NES","HDAC inhibitor",-0.35942,-1.05,0.381,254,0.585
+"glucocorticoid receptor agonist","NES","HMGCR inhibitor",0.7134,2.05,0.00745,50,0.015
+"glucocorticoid receptor agonist","NES","phosphodiesterase inhibitor",0.39168,1.09,0.355,102,0.354
+"glucocorticoid receptor agonist","NES","ribonucleotide reductase inhibitor",0.46561,1.32,0.168,23,0.266
+"glucocorticoid receptor agonist","NES","sodium channel blocker",0.40614,1.13,0.302,179,0.381
+"glucocorticoid receptor agonist","NES","topoisomerase inhibitor",-0.32168,-0.933,0.484,92,0.508
+"glucocorticoid receptor agonist","NES","tubulin polymerization inhibitor",0.58482,1.66,0.0476,100,0.0844
+"HDAC inhibitor","NES","adrenergic receptor agonist",-0.41472,-1.22,0.238,182,0.427
+"HDAC inhibitor","NES","glucocorticoid receptor agonist",-0.6413,-1.87,0.0328,211,0.146
+"HDAC inhibitor","NES","HDAC inhibitor",0.74963,2.1,0.00551,62,0.00655
+"HDAC inhibitor","NES","HMGCR inhibitor",-0.53677,-1.61,0.0447,234,0.23
+"HDAC inhibitor","NES","phosphodiesterase inhibitor",-0.35085,-0.996,0.433,249,0.612
+"HDAC inhibitor","NES","ribonucleotide reductase inhibitor",-0.46051,-1.33,0.166,243,0.402
+"HDAC inhibitor","NES","sodium channel blocker",-0.27646,-0.811,0.65,286,0.767
+"HDAC inhibitor","NES","topoisomerase inhibitor",0.25547,0.72,0.788,167,0.783
+"HDAC inhibitor","NES","tubulin polymerization inhibitor",-0.20647,-0.61,0.887,97,0.887
+"histamine receptor antagonist","NES","adrenergic receptor agonist",-0.23208,-0.701,0.795,68,1
+"histamine receptor antagonist","NES","glucocorticoid receptor agonist",-0.29414,-0.857,0.59,142,0.997
+"histamine receptor antagonist","NES","HDAC inhibitor",0.28937,0.846,0.616,107,0.614
+"histamine receptor antagonist","NES","HMGCR inhibitor",-0.41033,-1.23,0.232,268,0.59
+"histamine receptor antagonist","NES","phosphodiesterase inhibitor",0.48525,1.42,0.112,55,0.251
+"histamine receptor antagonist","NES","ribonucleotide reductase inhibitor",0.45414,1.36,0.157,112,0.209
+"histamine receptor antagonist","NES","sodium channel blocker",-0.59628,-1.8,0.0323,213,0.123
+"histamine receptor antagonist","NES","topoisomerase inhibitor",0.67351,2.02,0.0117,86,0.0333
+"histamine receptor antagonist","NES","tubulin polymerization inhibitor",-0.22347,-0.692,0.817,92,0.812
+"HMGCR inhibitor","NES","adrenergic receptor agonist",0.26475,0.748,0.754,163,0.764
+"HMGCR inhibitor","NES","glucocorticoid receptor agonist",0.6402,1.8,0.0228,87,0.144
+"HMGCR inhibitor","NES","HDAC inhibitor",-0.34271,-1.01,0.42,201,0.418
+"HMGCR inhibitor","NES","HMGCR inhibitor",0.59197,1.68,0.028,127,0.0963
+"HMGCR inhibitor","NES","phosphodiesterase inhibitor",0.38628,1.07,0.368,33,0.428
+"HMGCR inhibitor","NES","ribonucleotide reductase inhibitor",0.53512,1.51,0.0806,144,0.164
+"HMGCR inhibitor","NES","sodium channel blocker",0.42278,1.19,0.273,25,0.419
+"HMGCR inhibitor","NES","topoisomerase inhibitor",0.39645,1.09,0.349,129,0.476
+"HMGCR inhibitor","NES","tubulin polymerization inhibitor",0.60452,1.68,0.0345,99,0.0963
+"KIT inhibitor","NES","adrenergic receptor agonist",-0.60023,-1.67,0.0375,249,0.233
+"KIT inhibitor","NES","glucocorticoid receptor agonist",0.41601,1.18,0.256,73,0.364
+"KIT inhibitor","NES","HDAC inhibitor",-0.28249,-0.823,0.654,224,1
+"KIT inhibitor","NES","HMGCR inhibitor",0.54498,1.53,0.0729,50,0.3
+"KIT inhibitor","NES","phosphodiesterase inhibitor",0.199,0.56,0.929,90,0.932
+"KIT inhibitor","NES","ribonucleotide reductase inhibitor",-0.31667,-0.931,0.526,95,1
+"KIT inhibitor","NES","sodium channel blocker",0.50463,1.42,0.125,68,0.247
+"KIT inhibitor","NES","topoisomerase inhibitor",-0.23891,-0.675,0.843,70,1
+"KIT inhibitor","NES","tubulin polymerization inhibitor",-0.21758,-0.625,0.895,222,0.887
+"PDGFR tyrosine kinase receptor inhibitor","NES","adrenergic receptor agonist",-0.56978,-1.62,0.0731,207,0.312
+"PDGFR tyrosine kinase receptor inhibitor","NES","glucocorticoid receptor agonist",0.31567,0.892,0.584,56,0.755
+"PDGFR tyrosine kinase receptor inhibitor","NES","HDAC inhibitor",0.2066,0.591,0.93,63,0.911
+"PDGFR tyrosine kinase receptor inhibitor","NES","HMGCR inhibitor",0.47939,1.34,0.176,103,0.673
+"PDGFR tyrosine kinase receptor inhibitor","NES","phosphodiesterase inhibitor",-0.33593,-0.987,0.445,250,0.745
+"PDGFR tyrosine kinase receptor inhibitor","NES","ribonucleotide reductase inhibitor",-0.45468,-1.33,0.166,233,0.431
+"PDGFR tyrosine kinase receptor inhibitor","NES","sodium channel blocker",0.4339,1.23,0.242,30,0.468
+"PDGFR tyrosine kinase receptor inhibitor","NES","topoisomerase inhibitor",-0.21843,-0.62,0.887,64,0.883
+"PDGFR tyrosine kinase receptor inhibitor","NES","tubulin polymerization inhibitor",-0.27763,-0.824,0.638,214,0.814
+"phosphodiesterase inhibitor","NES","adrenergic receptor agonist",-0.4122,-1.22,0.242,194,0.723
+"phosphodiesterase inhibitor","NES","glucocorticoid receptor agonist",0.62676,1.85,0.0262,114,0.0595
+"phosphodiesterase inhibitor","NES","HDAC inhibitor",-0.3508,-1.05,0.386,179,0.574
+"phosphodiesterase inhibitor","NES","HMGCR inhibitor",0.37436,1.11,0.326,84,0.405
+"phosphodiesterase inhibitor","NES","ribonucleotide reductase inhibitor",0.68481,2.06,0.00756,27,0.0343
+"phosphodiesterase inhibitor","NES","sodium channel blocker",-0.32084,-0.965,0.47,247,0.473
+"phosphodiesterase inhibitor","NES","topoisomerase inhibitor",0.26047,0.766,0.697,182,0.718
+"phosphodiesterase inhibitor","NES","tubulin polymerization inhibitor",0.43032,1.27,0.198,55,0.338
+"PPAR receptor agonist","NES","adrenergic receptor agonist",0.3125,0.899,0.539,203,0.831
+"PPAR receptor agonist","NES","glucocorticoid receptor agonist",-0.69825,-1.97,0.00503,199,0.0163
+"PPAR receptor agonist","NES","HDAC inhibitor",0.18728,0.578,0.901,240,0.907
+"PPAR receptor agonist","NES","HMGCR inhibitor",-0.68056,-1.93,0.00534,196,0.0151
+"PPAR receptor agonist","NES","phosphodiesterase inhibitor",-0.53819,-1.55,0.0764,155,0.0915
+"PPAR receptor agonist","NES","ribonucleotide reductase inhibitor",-0.72023,-2.06,0.00529,238,0.021
+"PPAR receptor agonist","NES","sodium channel blocker",0.31944,0.92,0.519,201,1
+"PPAR receptor agonist","NES","topoisomerase inhibitor",-0.49301,-1.39,0.149,176,0.138
+"PPAR receptor agonist","NES","tubulin polymerization inhibitor",-0.62881,-1.74,0.0221,191,0.0413
+"protein synthesis inhibitor","NES","adrenergic receptor agonist",0.49873,1.44,0.114,110,0.214
+"protein synthesis inhibitor","NES","glucocorticoid receptor agonist",0.30389,0.857,0.6,82,0.701
+"protein synthesis inhibitor","NES","HDAC inhibitor",-0.23321,-0.694,0.808,175,0.805
+"protein synthesis inhibitor","NES","HMGCR inhibitor",0.28828,0.822,0.665,65,0.65
+"protein synthesis inhibitor","NES","phosphodiesterase inhibitor",0.50853,1.45,0.112,149,0.276
+"protein synthesis inhibitor","NES","ribonucleotide reductase inhibitor",0.73379,2.06,0.00181,83,0.0204
+"protein synthesis inhibitor","NES","sodium channel blocker",-0.48404,-1.44,0.12,227,0.236
+"protein synthesis inhibitor","NES","topoisomerase inhibitor",0.46264,1.33,0.177,137,0.249
+"protein synthesis inhibitor","NES","tubulin polymerization inhibitor",0.51758,1.49,0.0909,75,0.353
+"ribonucleotide reductase inhibitor","NES","adrenergic receptor agonist",-0.27893,-0.867,0.583,207,0.881
+"ribonucleotide reductase inhibitor","NES","glucocorticoid receptor agonist",0.55516,1.6,0.0709,133,0.16
+"ribonucleotide reductase inhibitor","NES","HDAC inhibitor",-0.25597,-0.782,0.676,254,0.69
+"ribonucleotide reductase inhibitor","NES","HMGCR inhibitor",0.35731,0.987,0.48,106,0.448
+"ribonucleotide reductase inhibitor","NES","phosphodiesterase inhibitor",0.65691,1.92,0.0124,65,0.061
+"ribonucleotide reductase inhibitor","NES","sodium channel blocker",-0.30634,-0.91,0.552,87,1
+"ribonucleotide reductase inhibitor","NES","topoisomerase inhibitor",0.44858,1.28,0.209,111,0.253
+"ribonucleotide reductase inhibitor","NES","tubulin polymerization inhibitor",0.54389,1.57,0.0821,54,0.123
+"sodium channel blocker","NES","adrenergic receptor agonist",-0.74755,-2.26,0,253,0.00985
+"sodium channel blocker","NES","glucocorticoid receptor agonist",0.39789,1.15,0.304,179,0.587
+"sodium channel blocker","NES","HDAC inhibitor",-0.32624,-0.973,0.467,92,0.556
+"sodium channel blocker","NES","HMGCR inhibitor",0.31132,0.913,0.547,140,0.551
+"sodium channel blocker","NES","phosphodiesterase inhibitor",-0.45829,-1.36,0.155,225,0.308
+"sodium channel blocker","NES","ribonucleotide reductase inhibitor",-0.5122,-1.58,0.0614,147,0.193
+"sodium channel blocker","NES","topoisomerase inhibitor",-0.24587,-0.759,0.712,218,0.733
+"sodium channel blocker","NES","tubulin polymerization inhibitor",-0.32733,-0.995,0.427,124,0.665
+"topoisomerase inhibitor","NES","adrenergic receptor agonist",0.44369,1.23,0.238,168,0.458
+"topoisomerase inhibitor","NES","glucocorticoid receptor agonist",0.25836,0.692,0.8,99,0.824
+"topoisomerase inhibitor","NES","HDAC inhibitor",0.43336,1.17,0.279,140,0.445
+"topoisomerase inhibitor","NES","HMGCR inhibitor",0.3383,0.918,0.586,132,0.631
+"topoisomerase inhibitor","NES","phosphodiesterase inhibitor",0.61152,1.72,0.0217,35,0.0967
+"topoisomerase inhibitor","NES","ribonucleotide reductase inhibitor",0.5256,1.43,0.109,144,0.29
+"topoisomerase inhibitor","NES","sodium channel blocker",-0.31151,-0.926,0.565,255,0.525
+"topoisomerase inhibitor","NES","topoisomerase inhibitor",0.82517,2.21,0.00298,62,0.00406
+"topoisomerase inhibitor","NES","tubulin polymerization inhibitor",0.38616,1.03,0.412,126,0.568
+"tubulin polymerization inhibitor","NES","adrenergic receptor agonist",0.25751,0.722,0.775,155,0.783
+"tubulin polymerization inhibitor","NES","glucocorticoid receptor agonist",0.60345,1.72,0.033,123,0.0832
+"tubulin polymerization inhibitor","NES","HDAC inhibitor",-0.257,-0.754,0.736,197,0.733
+"tubulin polymerization inhibitor","NES","HMGCR inhibitor",0.64758,1.79,0.0209,68,0.0832
+"tubulin polymerization inhibitor","NES","phosphodiesterase inhibitor",0.25251,0.725,0.766,72,0.889
+"tubulin polymerization inhibitor","NES","ribonucleotide reductase inhibitor",0.55165,1.57,0.0803,102,0.13
+"tubulin polymerization inhibitor","NES","sodium channel blocker",0.32082,0.897,0.562,204,0.747
+"tubulin polymerization inhibitor","NES","topoisomerase inhibitor",0.36578,1.03,0.417,122,0.652
+"tubulin polymerization inhibitor","NES","tubulin polymerization inhibitor",0.71329,1.99,0.00357,94,0.0518
+"VEGFR inhibitor","NES","adrenergic receptor agonist",-0.41614,-1.25,0.227,261,0.549
+"VEGFR inhibitor","NES","glucocorticoid receptor agonist",0.2697,0.76,0.723,74,0.972
+"VEGFR inhibitor","NES","HDAC inhibitor",0.23569,0.655,0.845,64,0.846
+"VEGFR inhibitor","NES","HMGCR inhibitor",0.61087,1.75,0.0307,82,0.106
+"VEGFR inhibitor","NES","phosphodiesterase inhibitor",-0.29439,-0.888,0.559,255,0.704
+"VEGFR inhibitor","NES","ribonucleotide reductase inhibitor",-0.60667,-1.81,0.0367,182,0.125
+"VEGFR inhibitor","NES","sodium channel blocker",0.48684,1.35,0.157,13,0.322
+"VEGFR inhibitor","NES","topoisomerase inhibitor",-0.17946,-0.54,0.96,223,0.944
+"VEGFR inhibitor","NES","tubulin polymerization inhibitor",-0.32485,-0.964,0.465,205,0.791
