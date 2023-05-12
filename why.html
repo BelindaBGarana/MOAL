@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+    Josh Hong
+    why.html
+    Jun 2, 2022
+-->
+<html lang="en">
+<head>
+    <title>MOAL: Why Use MOAL</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+                <a href="index.html"><h1>MOAL</h1></a>
+                <h2>Mechanism-of-action Landscape</h2>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="howtouse.html">How to Use</a></li>
+                <li><a href="why.html">Why Use MOAL</a></li>
+                <li><a href="methods.html">Methods</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Use the main area to add the main content to the webpage -->
+        <main>
+            <div id="why">
+                <h2>Why use MOAL</h2>
+                <p>
+                    Resistance is a major barrier to cancer remission. However, it is not practical to 
+                    test all the millions of potential drug combinations due to cost limitations. To help 
+                    prioritize drug pairings for further evaluation, we studied the similarity of drugs 
+                    grouped by mechanisms-of-action (MOA) in published drug screens. With this process, 
+                    termed the Mechanism-of-action Landscape (MOAL), 131 drug MOA pairings were prioritized 
+                    from more than 1.8 million potential drug pairings. Though this method does not evaluate 
+                    synergy, it has been used to study more than a thousand drugs whereas other methods have 
+                    only studied on the order of ten to one hundred drugs. In addition to recovering established 
+                    drug combinations (e.g., MEK and RAF inhibitors in skin cancer), this method has also detected 
+                    potential drug pairings which have not been well studied and demonstrated that results can vary 
+                    depending on tissue type. Furthermore, we show that the MOAL method is beneficial over a simple 
+                    UMAP visualization because it uses statistics to eliminate more than 96% of potential drug MOA 
+                    pairings from consideration and identifies significant MOA pairings which may not be obvious 
+                    from their distance on a UMAP visualization (e.g., BET and HDAC inhibitors). With the MOAL R 
+                    package, this method can also be used to evaluate the global performance of drug sensitivity 
+                    prediction algorithms.
+                </p>
+
+                <p>To learn more about DMEA, our previous algorithm which is the building block of MOAL, you can 
+                    read our bioRxiv pre-print here: <a href="https://www.biorxiv.org/content/10.1101/2022.03.15.484520v3" class="link" target="_blank">https://www.biorxiv.org/content/10.1101/2022.03.15.484520v3</a></p>
+
+                <p id="video">To learn more about enrichment analysis in general, you can refer to this <a href="https://www.pnas.org/doi/10.1073/pnas.0506580102" class="link" target="_blank">paper by Subramanian et al</a> and watch this YouTube video:</p>
+                <iframe class="bottom" width="756" height="425" src="https://www.youtube.com/embed/n1aNG_NwGOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+        </main>
+    
+        <footer>
+            <p>&copy; Copyright 2023. All Rights Reserved</p>
+            <p><a href="mailto:nagraham@usc.edu">nagraham@usc.edu</a></p>
+        </footer>
+    </div>
+</body>
+</html>
