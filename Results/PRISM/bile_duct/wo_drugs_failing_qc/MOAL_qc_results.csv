@@ -1,0 +1,27 @@
+"moa","Rank_metric","Drug_set","ES","NES","p_value","Position_at_max","FDR_q_value"
+"EGFR inhibitor","NES","EGFR inhibitor",0.91266,2.73,0,76,0
+"adrenergic receptor agonist","NES","adrenergic receptor agonist",0.73737,2.07,0.00161,213,0.0705
+"AKT inhibitor","NES","AKT inhibitor",0.86237,2.63,0,114,0
+"ATPase inhibitor","NES","ATPase inhibitor",0.82301,2.59,0,146,0
+"Aurora kinase inhibitor","NES","Aurora kinase inhibitor",0.76456,2.18,0.00169,193,0.0136
+"bacterial DNA gyrase inhibitor","NES","bacterial DNA gyrase inhibitor",0.55977,1.64,0.0469,319,0.34
+"calcium channel blocker","NES","calcium channel blocker",0.60886,1.7,0.0299,316,0.232
+"DNA alkylating agent","NES","DNA alkylating agent",0.72096,2.12,0.00385,226,0.0128
+"DNA inhibitor","NES","DNA inhibitor",0.61335,1.77,0.0279,100,0.156
+"DNA synthesis inhibitor","NES","DNA synthesis inhibitor",0.81187,2.39,0,154,0.00356
+"glucocorticoid receptor agonist","NES","glucocorticoid receptor agonist",0.74778,2.12,0.005,207,0.0367
+"HDAC inhibitor","NES","HDAC inhibitor",0.73427,2.03,0,225,0.0647
+"HSP inhibitor","NES","HSP inhibitor",0.64459,1.76,0.0254,291,0.0932
+"MDM inhibitor","NES","MDM inhibitor",0.5884,1.72,0.0246,246,0.0978
+"MEK inhibitor","NES","MEK inhibitor",0.71624,2.02,0.00334,162,0.028
+"mTOR inhibitor","NES","mTOR inhibitor",0.85551,2.45,0,122,0
+"phosphatase inhibitor","NES","phosphatase inhibitor",-0.27573,-0.871,0.58,217,0.728
+"PLK inhibitor","NES","PLK inhibitor",0.71516,2.02,0.00438,191,0.02
+"proteasome inhibitor","NES","proteasome inhibitor",0.78635,2.23,0,175,0.00954
+"protein synthesis inhibitor","NES","protein synthesis inhibitor",0.84576,2.47,0,128,0.000916
+"RAF inhibitor","NES","RAF inhibitor",0.51396,1.41,0.119,392,0.402
+"retinoid receptor agonist","NES","retinoid receptor agonist",0.7904,2.29,0,171,0.00951
+"topoisomerase inhibitor","NES","topoisomerase inhibitor",0.62548,1.76,0.0264,311,0.145
+"tubulin polymerization inhibitor","NES","tubulin polymerization inhibitor",0.84694,2.44,0,133,0.00359
+"VEGFR inhibitor","NES","VEGFR inhibitor",0.89381,2.64,0,90,0
+"vitamin D receptor agonist","NES","vitamin D receptor agonist",0.61139,1.76,0.027,314,0.176
