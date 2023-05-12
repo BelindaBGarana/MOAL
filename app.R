@@ -213,7 +213,7 @@ server <- function(input, output) {
     drug <- input$drug
     
     # get screen directory
-    screen.dir <- paste0("https://raw.github.com/BelindaBGarana/MOAL/shiny-app/Results/", screen)
+    screen.dir <- paste0("https://raw.github.com/BelindaBGarana/MOAL/shiny-app/Results/", screen, "/")
     
     if(screen == "CTRPv2"){
       ##### Using CTRPv2 drug screen (all adherent cancer cell lines) #####
