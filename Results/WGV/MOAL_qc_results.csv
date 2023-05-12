@@ -1,0 +1,19 @@
+"moa","Rank_metric","Drug_set","ES","NES","p_value","Position_at_max","FDR_q_value"
+"EGFR inhibitor","NES","EGFR inhibitor",0.82806,2.63,0,78,0
+"Abl kinase inhibitor","NES","Abl kinase inhibitor",0.20151,0.652,0.833,44,0.835
+"Aurora kinase inhibitor","NES","Aurora kinase inhibitor",0.68317,2.08,0.00434,87,0.0284
+"Bcr.Abl kinase inhibitor","NES","Bcr.Abl kinase inhibitor",0.41518,1.35,0.144,92,0.368
+"CDK inhibitor","NES","CDK inhibitor",0.23487,0.715,0.78,118,0.871
+"glucocorticoid receptor agonist","NES","glucocorticoid receptor agonist",0.35189,1.12,0.326,138,0.437
+"HDAC inhibitor","NES","HDAC inhibitor",0.67898,2.15,0.00316,88,0.0457
+"HSP inhibitor","NES","HSP inhibitor",-0.62191,-2.09,0.0147,330,0.0656
+"KIT inhibitor","NES","KIT inhibitor",0.37024,1.26,0.226,63,0.37
+"MEK inhibitor","NES","MEK inhibitor",0.98559,3.11,0,19,0
+"PDGFR tyrosine kinase receptor inhibitor","NES","PDGFR tyrosine kinase receptor inhibitor",0.46918,1.49,0.126,53,0.32
+"PI3K inhibitor","NES","PI3K inhibitor",0.4774,1.53,0.0968,192,0.199
+"protein synthesis inhibitor","NES","protein synthesis inhibitor",0.5778,1.74,0.0313,138,0.242
+"RAF inhibitor","NES","RAF inhibitor",0.82189,2.73,0,22,0.00102
+"topoisomerase inhibitor","NES","topoisomerase inhibitor",0.59661,1.78,0.0322,37,0.197
+"tubulin polymerization inhibitor","NES","tubulin polymerization inhibitor",0.69898,2.08,0.00414,56,0.0162
+"tyrosine kinase inhibitor","NES","tyrosine kinase inhibitor",-0.22114,-0.736,0.731,328,0.736
+"VEGFR inhibitor","NES","VEGFR inhibitor",0.26724,0.883,0.545,114,0.682
