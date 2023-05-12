@@ -1,0 +1,447 @@
+"moa","Rank_metric","Drug_set","ES","NES","p_value","Position_at_max","FDR_q_value"
+"EGFR inhibitor","NES","EGFR inhibitor",0.83485,2.51,0.002,67,0.000879
+"EGFR inhibitor","NES","Abl kinase inhibitor",-0.66667,-1.98,0.00575,212,0.0415
+"EGFR inhibitor","NES","AKT inhibitor",0.4512,1.35,0.171,72,0.19
+"EGFR inhibitor","NES","Aurora kinase inhibitor",-0.29691,-0.882,0.571,316,0.703
+"EGFR inhibitor","NES","Bcr.Abl kinase inhibitor",-0.66667,-2.01,0.00958,212,0.0539
+"EGFR inhibitor","NES","CDK inhibitor",0.51952,1.58,0.081,135,0.13
+"EGFR inhibitor","NES","HDAC inhibitor",-0.23492,-0.691,0.788,74,0.801
+"EGFR inhibitor","NES","JAK inhibitor",-0.50339,-1.53,0.0835,267,0.16
+"EGFR inhibitor","NES","MDM inhibitor",-0.54915,-1.6,0.0752,241,0.153
+"EGFR inhibitor","NES","MEK inhibitor",0.32686,0.978,0.491,222,0.458
+"EGFR inhibitor","NES","mTOR inhibitor",0.56604,1.67,0.06,143,0.113
+"EGFR inhibitor","NES","PI3K inhibitor",0.62249,1.87,0.0145,97,0.0914
+"EGFR inhibitor","NES","PLK inhibitor",-0.24214,-0.72,0.761,77,0.845
+"EGFR inhibitor","NES","protein synthesis inhibitor",-0.42722,-1.27,0.215,135,0.329
+"EGFR inhibitor","NES","protein tyrosine kinase inhibitor",0.61746,1.83,0.0169,100,0.0721
+"EGFR inhibitor","NES","RAF inhibitor",-0.71835,-2.2,0.00371,227,0.0289
+"EGFR inhibitor","NES","topoisomerase inhibitor",-0.62097,-1.82,0.0233,233,0.077
+"EGFR inhibitor","NES","tubulin polymerization inhibitor",-0.34182,-1.02,0.394,242,0.581
+"EGFR inhibitor","NES","tyrosine kinase inhibitor",0.47484,1.4,0.134,52,0.191
+"Abl kinase inhibitor","NES","EGFR inhibitor",-0.6605,-1.93,0.016,220,0.114
+"Abl kinase inhibitor","NES","Abl kinase inhibitor",0.34582,1.02,0.412,89,0.628
+"Abl kinase inhibitor","NES","AKT inhibitor",-0.65396,-1.91,0.0114,263,0.064
+"Abl kinase inhibitor","NES","Aurora kinase inhibitor",-0.37243,-1.09,0.355,245,0.399
+"Abl kinase inhibitor","NES","Bcr.Abl kinase inhibitor",0.34582,1.07,0.371,89,0.832
+"Abl kinase inhibitor","NES","CDK inhibitor",-0.58491,-1.74,0.0464,186,0.0856
+"Abl kinase inhibitor","NES","HDAC inhibitor",-0.42663,-1.24,0.207,221,0.335
+"Abl kinase inhibitor","NES","JAK inhibitor",0.34167,1.03,0.431,44,0.736
+"Abl kinase inhibitor","NES","MDM inhibitor",0.66549,2.05,0.0102,10,0.0378
+"Abl kinase inhibitor","NES","MEK inhibitor",0.3401,1.01,0.419,189,0.551
+"Abl kinase inhibitor","NES","mTOR inhibitor",-0.49095,-1.48,0.107,202,0.212
+"Abl kinase inhibitor","NES","PI3K inhibitor",-0.61507,-1.74,0.0347,231,0.0856
+"Abl kinase inhibitor","NES","PLK inhibitor",0.20126,0.62,0.861,259,0.861
+"Abl kinase inhibitor","NES","protein synthesis inhibitor",0.52215,1.56,0.0844,158,0.249
+"Abl kinase inhibitor","NES","protein tyrosine kinase inhibitor",-0.46904,-1.38,0.144,197,0.256
+"Abl kinase inhibitor","NES","RAF inhibitor",0.77903,2.45,0,43,0.00319
+"Abl kinase inhibitor","NES","topoisomerase inhibitor",-0.28814,-0.859,0.621,191,0.61
+"Abl kinase inhibitor","NES","tubulin polymerization inhibitor",0.27259,0.807,0.633,40,0.748
+"Abl kinase inhibitor","NES","tyrosine kinase inhibitor",-0.37481,-1.12,0.347,175,0.414
+"AKT inhibitor","NES","EGFR inhibitor",0.56436,1.69,0.0522,133,0.123
+"AKT inhibitor","NES","Abl kinase inhibitor",-0.49475,-1.45,0.128,246,0.219
+"AKT inhibitor","NES","Aurora kinase inhibitor",0.39917,1.2,0.264,103,0.337
+"AKT inhibitor","NES","Bcr.Abl kinase inhibitor",-0.49475,-1.44,0.129,246,0.191
+"AKT inhibitor","NES","CDK inhibitor",0.43655,1.31,0.193,131,0.282
+"AKT inhibitor","NES","HDAC inhibitor",0.61665,1.87,0.0284,88,0.112
+"AKT inhibitor","NES","JAK inhibitor",0.21895,0.671,0.842,121,0.817
+"AKT inhibitor","NES","MDM inhibitor",-0.54055,-1.56,0.0799,229,0.246
+"AKT inhibitor","NES","MEK inhibitor",-0.58443,-1.73,0.0406,205,0.358
+"AKT inhibitor","NES","mTOR inhibitor",-0.3299,-0.967,0.479,274,0.539
+"AKT inhibitor","NES","PI3K inhibitor",0.62821,1.99,0.00893,122,0.115
+"AKT inhibitor","NES","PLK inhibitor",-0.4433,-1.33,0.174,277,0.234
+"AKT inhibitor","NES","protein synthesis inhibitor",-0.23953,-0.682,0.814,315,0.804
+"AKT inhibitor","NES","protein tyrosine kinase inhibitor",0.61342,1.83,0.0276,126,0.0907
+"AKT inhibitor","NES","RAF inhibitor",-0.54496,-1.58,0.0675,204,0.342
+"AKT inhibitor","NES","topoisomerase inhibitor",0.35855,1.08,0.374,209,0.403
+"AKT inhibitor","NES","tubulin polymerization inhibitor",-0.50836,-1.52,0.106,276,0.215
+"AKT inhibitor","NES","tyrosine kinase inhibitor",0.44984,1.34,0.18,179,0.314
+"Aurora kinase inhibitor","NES","EGFR inhibitor",-0.27471,-0.843,0.605,195,0.706
+"Aurora kinase inhibitor","NES","Abl kinase inhibitor",-0.35252,-1.08,0.351,221,0.538
+"Aurora kinase inhibitor","NES","AKT inhibitor",-0.23315,-0.734,0.745,319,0.758
+"Aurora kinase inhibitor","NES","Aurora kinase inhibitor",0.68786,1.94,0.00735,77,0.0273
+"Aurora kinase inhibitor","NES","Bcr.Abl kinase inhibitor",-0.35252,-1.12,0.316,221,0.581
+"Aurora kinase inhibitor","NES","CDK inhibitor",0.62579,1.79,0.00929,124,0.0401
+"Aurora kinase inhibitor","NES","HDAC inhibitor",0.6381,1.82,0.0165,122,0.0417
+"Aurora kinase inhibitor","NES","JAK inhibitor",0.77358,2.27,0.0015,77,0.00708
+"Aurora kinase inhibitor","NES","MDM inhibitor",-0.58805,-1.84,0.0115,187,0.074
+"Aurora kinase inhibitor","NES","MEK inhibitor",-0.87682,-2.71,0,283,0
+"Aurora kinase inhibitor","NES","mTOR inhibitor",-0.40881,-1.27,0.224,130,0.47
+"Aurora kinase inhibitor","NES","PI3K inhibitor",-0.28707,-0.9,0.556,91,0.715
+"Aurora kinase inhibitor","NES","PLK inhibitor",0.59119,1.68,0.0267,135,0.0621
+"Aurora kinase inhibitor","NES","protein synthesis inhibitor",0.69036,1.97,0.006,70,0.0334
+"Aurora kinase inhibitor","NES","protein tyrosine kinase inhibitor",0.51337,1.43,0.12,20,0.166
+"Aurora kinase inhibitor","NES","RAF inhibitor",-0.80911,-2.56,0,279,0.000716
+"Aurora kinase inhibitor","NES","topoisomerase inhibitor",0.42718,1.22,0.261,191,0.274
+"Aurora kinase inhibitor","NES","tubulin polymerization inhibitor",0.49584,1.39,0.133,158,0.169
+"Aurora kinase inhibitor","NES","tyrosine kinase inhibitor",0.26642,0.757,0.721,20,0.739
+"Bcr.Abl kinase inhibitor","NES","EGFR inhibitor",-0.64684,-1.91,0.00893,221,0.0589
+"Bcr.Abl kinase inhibitor","NES","Abl kinase inhibitor",0.55418,1.71,0.0365,86,0.131
+"Bcr.Abl kinase inhibitor","NES","AKT inhibitor",-0.42981,-1.28,0.223,250,0.313
+"Bcr.Abl kinase inhibitor","NES","Aurora kinase inhibitor",-0.32228,-0.935,0.53,191,0.519
+"Bcr.Abl kinase inhibitor","NES","Bcr.Abl kinase inhibitor",0.55418,1.7,0.0347,86,0.102
+"Bcr.Abl kinase inhibitor","NES","CDK inhibitor",-0.75786,-2.18,0.00164,241,0.0159
+"Bcr.Abl kinase inhibitor","NES","HDAC inhibitor",-0.52173,-1.53,0.0802,267,0.139
+"Bcr.Abl kinase inhibitor","NES","JAK inhibitor",0.33639,1.02,0.418,35,0.534
+"Bcr.Abl kinase inhibitor","NES","MDM inhibitor",0.61381,1.88,0.0127,18,0.0887
+"Bcr.Abl kinase inhibitor","NES","MEK inhibitor",0.38188,1.18,0.269,205,0.421
+"Bcr.Abl kinase inhibitor","NES","mTOR inhibitor",-0.53092,-1.53,0.0887,209,0.139
+"Bcr.Abl kinase inhibitor","NES","PI3K inhibitor",-0.55205,-1.59,0.0497,175,0.158
+"Bcr.Abl kinase inhibitor","NES","PLK inhibitor",-0.32924,-0.948,0.5,276,0.559
+"Bcr.Abl kinase inhibitor","NES","protein synthesis inhibitor",0.27643,0.843,0.607,119,0.7
+"Bcr.Abl kinase inhibitor","NES","protein tyrosine kinase inhibitor",-0.57247,-1.69,0.0397,232,0.136
+"Bcr.Abl kinase inhibitor","NES","RAF inhibitor",0.7576,2.31,0.00261,50,0.0163
+"Bcr.Abl kinase inhibitor","NES","topoisomerase inhibitor",0.411,1.19,0.288,196,0.492
+"Bcr.Abl kinase inhibitor","NES","tubulin polymerization inhibitor",0.14548,0.44,0.983,250,0.976
+"Bcr.Abl kinase inhibitor","NES","tyrosine kinase inhibitor",-0.39276,-1.13,0.32,181,0.41
+"CDK inhibitor","NES","EGFR inhibitor",0.40203,1.19,0.287,204,0.404
+"CDK inhibitor","NES","Abl kinase inhibitor",-0.66995,-2.12,0.0028,271,0.0108
+"CDK inhibitor","NES","AKT inhibitor",0.46396,1.36,0.173,103,0.295
+"CDK inhibitor","NES","Aurora kinase inhibitor",0.54325,1.59,0.0638,35,0.167
+"CDK inhibitor","NES","Bcr.Abl kinase inhibitor",-0.66995,-2.08,0.00272,271,0.00998
+"CDK inhibitor","NES","CDK inhibitor",0.56604,1.66,0.0428,143,0.149
+"CDK inhibitor","NES","HDAC inhibitor",0.62236,1.85,0.0125,93,0.206
+"CDK inhibitor","NES","JAK inhibitor",0.33019,0.973,0.446,218,0.475
+"CDK inhibitor","NES","MDM inhibitor",-0.62262,-1.9,0.017,295,0.0228
+"CDK inhibitor","NES","MEK inhibitor",-0.74874,-2.34,0,250,0.00552
+"CDK inhibitor","NES","mTOR inhibitor",0.38679,1.15,0.291,200,0.367
+"CDK inhibitor","NES","PI3K inhibitor",0.3963,1.17,0.281,157,0.382
+"CDK inhibitor","NES","PLK inhibitor",0.61531,1.83,0.0207,80,0.119
+"CDK inhibitor","NES","protein synthesis inhibitor",0.59394,1.75,0.047,96,0.126
+"CDK inhibitor","NES","protein tyrosine kinase inhibitor",0.46247,1.37,0.159,131,0.332
+"CDK inhibitor","NES","RAF inhibitor",-0.84844,-2.62,0,291,0.000849
+"CDK inhibitor","NES","topoisomerase inhibitor",-0.31518,-1.01,0.425,206,0.43
+"CDK inhibitor","NES","tubulin polymerization inhibitor",0.44321,1.32,0.164,149,0.297
+"CDK inhibitor","NES","tyrosine kinase inhibitor",0.36423,1.09,0.365,89,0.392
+"glucocorticoid receptor agonist","NES","EGFR inhibitor",0.62302,1.88,0.0125,130,0.114
+"glucocorticoid receptor agonist","NES","Abl kinase inhibitor",-0.6324,-1.95,0.0166,254,0.066
+"glucocorticoid receptor agonist","NES","AKT inhibitor",0.56964,1.68,0.0692,73,0.144
+"glucocorticoid receptor agonist","NES","Aurora kinase inhibitor",0.3059,0.922,0.53,187,0.58
+"glucocorticoid receptor agonist","NES","Bcr.Abl kinase inhibitor",-0.6324,-1.92,0.00616,254,0.0472
+"glucocorticoid receptor agonist","NES","CDK inhibitor",0.49686,1.5,0.0979,165,0.182
+"glucocorticoid receptor agonist","NES","HDAC inhibitor",0.37916,1.14,0.315,157,0.386
+"glucocorticoid receptor agonist","NES","JAK inhibitor",-0.27987,-0.865,0.588,89,0.597
+"glucocorticoid receptor agonist","NES","MDM inhibitor",-0.56272,-1.7,0.0516,252,0.0937
+"glucocorticoid receptor agonist","NES","MEK inhibitor",-0.31068,-0.932,0.529,96,0.692
+"glucocorticoid receptor agonist","NES","mTOR inhibitor",0.49057,1.5,0.0971,167,0.182
+"glucocorticoid receptor agonist","NES","PI3K inhibitor",0.57729,1.74,0.0454,140,0.148
+"glucocorticoid receptor agonist","NES","PLK inhibitor",0.44969,1.32,0.198,180,0.258
+"glucocorticoid receptor agonist","NES","protein synthesis inhibitor",0.29317,0.904,0.568,111,0.548
+"glucocorticoid receptor agonist","NES","protein tyrosine kinase inhibitor",0.61321,1.91,0.0105,128,0.196
+"glucocorticoid receptor agonist","NES","RAF inhibitor",-0.78797,-2.37,0,249,0.0137
+"glucocorticoid receptor agonist","NES","topoisomerase inhibitor",-0.36308,-1.13,0.31,187,0.506
+"glucocorticoid receptor agonist","NES","tubulin polymerization inhibitor",-0.28619,-0.87,0.58,171,0.675
+"glucocorticoid receptor agonist","NES","tyrosine kinase inhibitor",0.44648,1.34,0.166,88,0.274
+"HDAC inhibitor","NES","EGFR inhibitor",0.41316,1.18,0.29,154,0.311
+"HDAC inhibitor","NES","Abl kinase inhibitor",-0.54258,-1.67,0.0654,252,0.218
+"HDAC inhibitor","NES","AKT inhibitor",0.67597,1.95,0.00306,57,0.0397
+"HDAC inhibitor","NES","Aurora kinase inhibitor",0.55524,1.63,0.0473,90,0.0812
+"HDAC inhibitor","NES","Bcr.Abl kinase inhibitor",-0.54258,-1.69,0.0497,252,0.403
+"HDAC inhibitor","NES","CDK inhibitor",0.55031,1.63,0.0437,148,0.0812
+"HDAC inhibitor","NES","HDAC inhibitor",0.79048,2.32,0.00157,74,0.00747
+"HDAC inhibitor","NES","JAK inhibitor",0.44025,1.25,0.218,183,0.282
+"HDAC inhibitor","NES","MDM inhibitor",-0.36376,-1.1,0.323,208,0.538
+"HDAC inhibitor","NES","MEK inhibitor",-0.37135,-1.19,0.251,178,0.535
+"HDAC inhibitor","NES","mTOR inhibitor",0.58931,1.72,0.0434,37,0.0939
+"HDAC inhibitor","NES","PI3K inhibitor",0.6006,1.77,0.0188,49,0.099
+"HDAC inhibitor","NES","PLK inhibitor",-0.2091,-0.641,0.853,270,0.846
+"HDAC inhibitor","NES","protein synthesis inhibitor",0.5,1.49,0.104,165,0.133
+"HDAC inhibitor","NES","protein tyrosine kinase inhibitor",0.58176,1.7,0.0294,138,0.0813
+"HDAC inhibitor","NES","RAF inhibitor",-0.47724,-1.51,0.105,202,0.265
+"HDAC inhibitor","NES","topoisomerase inhibitor",-0.27397,-0.869,0.591,188,0.672
+"HDAC inhibitor","NES","tubulin polymerization inhibitor",-0.3541,-1.09,0.349,108,0.46
+"HDAC inhibitor","NES","tyrosine kinase inhibitor",0.31057,0.899,0.537,138,0.567
+"HSP inhibitor","NES","EGFR inhibitor",-0.59726,-1.78,0.0276,216,0.113
+"HSP inhibitor","NES","Abl kinase inhibitor",-0.28616,-0.89,0.565,91,0.623
+"HSP inhibitor","NES","AKT inhibitor",0.30503,0.9,0.562,226,0.556
+"HSP inhibitor","NES","Aurora kinase inhibitor",0.36943,1.07,0.38,207,0.425
+"HSP inhibitor","NES","Bcr.Abl kinase inhibitor",-0.28616,-0.885,0.548,91,0.565
+"HSP inhibitor","NES","CDK inhibitor",0.62115,1.79,0.0252,79,0.12
+"HSP inhibitor","NES","HDAC inhibitor",-0.39973,-1.24,0.232,174,0.335
+"HSP inhibitor","NES","JAK inhibitor",0.38365,1.14,0.312,201,0.399
+"HSP inhibitor","NES","MDM inhibitor",-0.71077,-2.22,0.00735,275,0.0388
+"HSP inhibitor","NES","MEK inhibitor",-0.61492,-1.94,0.0184,207,0.0821
+"HSP inhibitor","NES","mTOR inhibitor",0.55988,1.61,0.0875,42,0.114
+"HSP inhibitor","NES","PI3K inhibitor",-0.32996,-1.03,0.421,253,0.507
+"HSP inhibitor","NES","PLK inhibitor",0.58805,1.74,0.0347,136,0.105
+"HSP inhibitor","NES","protein synthesis inhibitor",0.5538,1.64,0.0652,148,0.125
+"HSP inhibitor","NES","protein tyrosine kinase inhibitor",-0.48544,-1.5,0.0933,261,0.208
+"HSP inhibitor","NES","RAF inhibitor",-0.50949,-1.54,0.101,161,0.228
+"HSP inhibitor","NES","topoisomerase inhibitor",0.48162,1.43,0.119,120,0.196
+"HSP inhibitor","NES","tubulin polymerization inhibitor",0.71633,2.1,0.00333,72,0.0375
+"HSP inhibitor","NES","tyrosine kinase inhibitor",-0.41065,-1.25,0.233,227,0.381
+"JAK inhibitor","NES","EGFR inhibitor",-0.59585,-1.86,0.0331,211,0.1
+"JAK inhibitor","NES","AKT inhibitor",0.26518,0.807,0.656,235,0.663
+"JAK inhibitor","NES","Aurora kinase inhibitor",0.55075,1.66,0.0624,112,0.138
+"JAK inhibitor","NES","CDK inhibitor",0.36797,1.12,0.314,172,0.381
+"JAK inhibitor","NES","HDAC inhibitor",0.54839,1.68,0.0437,148,0.192
+"JAK inhibitor","NES","MDM inhibitor",-0.28284,-0.893,0.571,183,0.749
+"JAK inhibitor","NES","MEK inhibitor",-0.90774,-2.86,0,288,0
+"JAK inhibitor","NES","mTOR inhibitor",-0.55591,-1.71,0.0556,174,0.0957
+"JAK inhibitor","NES","PI3K inhibitor",-0.45513,-1.47,0.107,142,0.193
+"JAK inhibitor","NES","PLK inhibitor",0.44728,1.37,0.148,178,0.26
+"JAK inhibitor","NES","protein synthesis inhibitor",0.41983,1.25,0.254,160,0.314
+"JAK inhibitor","NES","protein tyrosine kinase inhibitor",-0.25811,-0.819,0.661,264,0.748
+"JAK inhibitor","NES","RAF inhibitor",-0.57878,-1.81,0.0381,180,0.0786
+"JAK inhibitor","NES","topoisomerase inhibitor",0.63487,1.9,0.0102,125,0.118
+"JAK inhibitor","NES","tubulin polymerization inhibitor",0.48695,1.49,0.11,162,0.21
+"JAK inhibitor","NES","tyrosine kinase inhibitor",-0.19316,-0.622,0.874,237,0.859
+"KIT inhibitor","NES","EGFR inhibitor",-0.61856,-1.85,0.0124,211,0.189
+"KIT inhibitor","NES","Abl kinase inhibitor",0.72327,2.25,0.0023,93,0.0306
+"KIT inhibitor","NES","AKT inhibitor",-0.43562,-1.3,0.185,248,0.288
+"KIT inhibitor","NES","Aurora kinase inhibitor",0.27458,0.854,0.6,185,0.61
+"KIT inhibitor","NES","Bcr.Abl kinase inhibitor",0.72327,2.21,0.00468,93,0.0197
+"KIT inhibitor","NES","CDK inhibitor",-0.57987,-1.71,0.0323,212,0.137
+"KIT inhibitor","NES","HDAC inhibitor",-0.15678,-0.475,0.961,313,0.961
+"KIT inhibitor","NES","JAK inhibitor",0.51977,1.6,0.0701,93,0.16
+"KIT inhibitor","NES","MDM inhibitor",0.38152,1.17,0.301,124,0.362
+"KIT inhibitor","NES","MEK inhibitor",-0.59192,-1.78,0.0292,215,0.145
+"KIT inhibitor","NES","mTOR inhibitor",-0.53774,-1.57,0.0793,171,0.187
+"KIT inhibitor","NES","PI3K inhibitor",-0.48896,-1.46,0.126,155,0.235
+"KIT inhibitor","NES","PLK inhibitor",-0.36164,-1.06,0.368,115,0.476
+"KIT inhibitor","NES","protein synthesis inhibitor",0.46519,1.44,0.128,176,0.185
+"KIT inhibitor","NES","protein tyrosine kinase inhibitor",-0.46541,-1.41,0.147,148,0.233
+"KIT inhibitor","NES","RAF inhibitor",0.69937,2.13,0.00654,102,0.0204
+"KIT inhibitor","NES","topoisomerase inhibitor",0.49191,1.55,0.0863,171,0.152
+"KIT inhibitor","NES","tubulin polymerization inhibitor",0.32131,0.985,0.486,225,0.511
+"KIT inhibitor","NES","tyrosine kinase inhibitor",-0.23591,-0.683,0.795,148,0.897
+"MDM inhibitor","NES","EGFR inhibitor",-0.65512,-1.87,0.0205,206,0.0911
+"MDM inhibitor","NES","Abl kinase inhibitor",0.67964,2.09,0.00709,30,0.0297
+"MDM inhibitor","NES","AKT inhibitor",-0.41323,-1.2,0.254,189,0.368
+"MDM inhibitor","NES","Aurora kinase inhibitor",-0.43042,-1.27,0.208,133,0.341
+"MDM inhibitor","NES","Bcr.Abl kinase inhibitor",0.67964,2.02,0.0218,30,0.0294
+"MDM inhibitor","NES","CDK inhibitor",-0.75681,-2.24,0,278,0.0175
+"MDM inhibitor","NES","HDAC inhibitor",-0.29677,-0.851,0.611,92,0.608
+"MDM inhibitor","NES","JAK inhibitor",0.2524,0.776,0.664,239,0.688
+"MDM inhibitor","NES","MEK inhibitor",0.63361,1.95,0.0204,71,0.0323
+"MDM inhibitor","NES","mTOR inhibitor",-0.35463,-1.02,0.429,111,0.468
+"MDM inhibitor","NES","PI3K inhibitor",-0.45456,-1.31,0.189,181,0.421
+"MDM inhibitor","NES","PLK inhibitor",-0.60775,-1.76,0.0351,269,0.115
+"MDM inhibitor","NES","protein synthesis inhibitor",0.37299,1.11,0.344,202,0.389
+"MDM inhibitor","NES","protein tyrosine kinase inhibitor",-0.51118,-1.47,0.11,160,0.317
+"MDM inhibitor","NES","RAF inhibitor",0.91961,2.75,0,32,0
+"MDM inhibitor","NES","topoisomerase inhibitor",0.47368,1.47,0.113,174,0.159
+"MDM inhibitor","NES","tubulin polymerization inhibitor",-0.4569,-1.28,0.222,253,0.385
+"MDM inhibitor","NES","tyrosine kinase inhibitor",-0.36803,-1.06,0.383,160,0.476
+"MEK inhibitor","NES","EGFR inhibitor",0.37435,1.1,0.348,197,0.336
+"MEK inhibitor","NES","Abl kinase inhibitor",-0.25551,-0.727,0.798,306,0.899
+"MEK inhibitor","NES","AKT inhibitor",-0.51783,-1.46,0.113,243,0.211
+"MEK inhibitor","NES","Aurora kinase inhibitor",-0.66561,-1.86,0.0089,209,0.0728
+"MEK inhibitor","NES","Bcr.Abl kinase inhibitor",-0.25551,-0.712,0.803,306,0.841
+"MEK inhibitor","NES","CDK inhibitor",-0.59748,-1.67,0.0457,190,0.101
+"MEK inhibitor","NES","HDAC inhibitor",-0.2785,-0.793,0.675,152,0.898
+"MEK inhibitor","NES","JAK inhibitor",-0.70126,-1.93,0.00568,223,0.0661
+"MEK inhibitor","NES","MDM inhibitor",0.53194,1.58,0.0665,73,0.145
+"MEK inhibitor","NES","MEK inhibitor",0.98382,2.89,0,19,0
+"MEK inhibitor","NES","mTOR inhibitor",0.54403,1.57,0.0783,150,0.113
+"MEK inhibitor","NES","PI3K inhibitor",0.49527,1.49,0.117,166,0.122
+"MEK inhibitor","NES","PLK inhibitor",-0.46541,-1.29,0.197,148,0.331
+"MEK inhibitor","NES","protein synthesis inhibitor",-0.68691,-1.94,0.0101,302,0.118
+"MEK inhibitor","NES","protein tyrosine kinase inhibitor",-0.4026,-1.11,0.346,320,0.496
+"MEK inhibitor","NES","RAF inhibitor",0.88608,2.6,0,43,0.000362
+"MEK inhibitor","NES","topoisomerase inhibitor",-0.59871,-1.69,0.0387,185,0.109
+"MEK inhibitor","NES","tubulin polymerization inhibitor",-0.61578,-1.69,0.0504,269,0.109
+"MEK inhibitor","NES","tyrosine kinase inhibitor",-0.21087,-0.593,0.898,320,0.89
+"mTOR inhibitor","NES","EGFR inhibitor",0.72531,2.28,0.00226,87,0.023
+"mTOR inhibitor","NES","Abl kinase inhibitor",-0.63898,-1.98,0.0145,200,0.0511
+"mTOR inhibitor","NES","AKT inhibitor",0.23323,0.749,0.739,245,0.956
+"mTOR inhibitor","NES","Aurora kinase inhibitor",-0.26808,-0.822,0.618,265,0.635
+"mTOR inhibitor","NES","Bcr.Abl kinase inhibitor",-0.63898,-1.91,0.0223,200,0.0393
+"mTOR inhibitor","NES","CDK inhibitor",0.31949,1.02,0.447,218,0.844
+"mTOR inhibitor","NES","HDAC inhibitor",0.17167,0.555,0.924,142,0.906
+"mTOR inhibitor","NES","JAK inhibitor",-0.56579,-1.74,0.0368,273,0.0742
+"mTOR inhibitor","NES","MDM inhibitor",-0.32258,-0.993,0.468,168,0.579
+"mTOR inhibitor","NES","MEK inhibitor",0.34559,1.11,0.33,181,0.903
+"mTOR inhibitor","NES","PLK inhibitor",-0.29445,-0.915,0.53,311,0.597
+"mTOR inhibitor","NES","protein synthesis inhibitor",-0.41103,-1.27,0.221,210,0.331
+"mTOR inhibitor","NES","protein tyrosine kinase inhibitor",0.43449,1.38,0.17,118,0.638
+"mTOR inhibitor","NES","RAF inhibitor",-0.63023,-1.94,0.0111,196,0.044
+"mTOR inhibitor","NES","topoisomerase inhibitor",-0.7457,-2.32,0.00552,260,0.0125
+"mTOR inhibitor","NES","tubulin polymerization inhibitor",0.21671,0.684,0.783,203,0.901
+"mTOR inhibitor","NES","tyrosine kinase inhibitor",0.29674,0.925,0.52,87,0.825
+"PDGFR tyrosine kinase receptor inhibitor","NES","EGFR inhibitor",-0.63053,-1.83,0.0296,204,0.0983
+"PDGFR tyrosine kinase receptor inhibitor","NES","Abl kinase inhibitor",0.68442,2.1,0.00744,64,0.0296
+"PDGFR tyrosine kinase receptor inhibitor","NES","AKT inhibitor",-0.40622,-1.18,0.279,243,0.401
+"PDGFR tyrosine kinase receptor inhibitor","NES","Aurora kinase inhibitor",0.25462,0.774,0.72,80,0.707
+"PDGFR tyrosine kinase receptor inhibitor","NES","Bcr.Abl kinase inhibitor",0.68442,2.15,0.00907,64,0.0457
+"PDGFR tyrosine kinase receptor inhibitor","NES","CDK inhibitor",-0.55824,-1.66,0.0478,209,0.161
+"PDGFR tyrosine kinase receptor inhibitor","NES","HDAC inhibitor",-0.22156,-0.651,0.845,244,0.933
+"PDGFR tyrosine kinase receptor inhibitor","NES","JAK inhibitor",0.61729,1.85,0.0188,64,0.0744
+"PDGFR tyrosine kinase receptor inhibitor","NES","MDM inhibitor",0.34369,1.02,0.406,131,0.477
+"PDGFR tyrosine kinase receptor inhibitor","NES","MEK inhibitor",-0.67959,-1.98,0.00345,226,0.0814
+"PDGFR tyrosine kinase receptor inhibitor","NES","mTOR inhibitor",-0.48099,-1.37,0.148,303,0.311
+"PDGFR tyrosine kinase receptor inhibitor","NES","PI3K inhibitor",-0.55521,-1.64,0.0499,176,0.133
+"PDGFR tyrosine kinase receptor inhibitor","NES","PLK inhibitor",-0.28931,-0.854,0.586,92,0.766
+"PDGFR tyrosine kinase receptor inhibitor","NES","protein synthesis inhibitor",0.43354,1.31,0.209,186,0.343
+"PDGFR tyrosine kinase receptor inhibitor","NES","protein tyrosine kinase inhibitor",-0.40679,-1.21,0.24,220,0.428
+"PDGFR tyrosine kinase receptor inhibitor","NES","RAF inhibitor",0.40823,1.26,0.226,194,0.334
+"PDGFR tyrosine kinase receptor inhibitor","NES","topoisomerase inhibitor",0.56982,1.77,0.0505,111,0.082
+"PDGFR tyrosine kinase receptor inhibitor","NES","tubulin polymerization inhibitor",0.36052,1.07,0.386,164,0.478
+"PDGFR tyrosine kinase receptor inhibitor","NES","tyrosine kinase inhibitor",-0.21523,-0.63,0.874,189,0.859
+"PI3K inhibitor","NES","EGFR inhibitor",0.75881,2.31,0,79,0.0146
+"PI3K inhibitor","NES","Abl kinase inhibitor",-0.69982,-2.21,0.00842,260,0.0139
+"PI3K inhibitor","NES","AKT inhibitor",0.48825,1.45,0.118,62,0.177
+"PI3K inhibitor","NES","Aurora kinase inhibitor",0.21791,0.651,0.826,132,0.836
+"PI3K inhibitor","NES","Bcr.Abl kinase inhibitor",-0.69982,-2.09,0.00948,260,0.0196
+"PI3K inhibitor","NES","CDK inhibitor",0.54717,1.65,0.0654,149,0.115
+"PI3K inhibitor","NES","HDAC inhibitor",0.59497,1.8,0.0247,77,0.0873
+"PI3K inhibitor","NES","JAK inhibitor",-0.34155,-1.07,0.378,186,0.421
+"PI3K inhibitor","NES","MDM inhibitor",-0.49678,-1.51,0.088,235,0.173
+"PI3K inhibitor","NES","MEK inhibitor",-0.35993,-1.1,0.342,143,0.442
+"PI3K inhibitor","NES","mTOR inhibitor",0.50314,1.54,0.0964,163,0.15
+"PI3K inhibitor","NES","PI3K inhibitor",0.57729,1.73,0.0521,140,0.1
+"PI3K inhibitor","NES","PLK inhibitor",-0.41509,-1.3,0.226,132,0.29
+"PI3K inhibitor","NES","protein synthesis inhibitor",0.32911,1,0.437,219,0.486
+"PI3K inhibitor","NES","protein tyrosine kinase inhibitor",0.62579,1.92,0.0116,124,0.0686
+"PI3K inhibitor","NES","RAF inhibitor",-0.77215,-2.36,0.00229,244,0.0124
+"PI3K inhibitor","NES","topoisomerase inhibitor",-0.50659,-1.57,0.0789,219,0.175
+"PI3K inhibitor","NES","tubulin polymerization inhibitor",-0.30979,-0.964,0.479,117,0.483
+"PI3K inhibitor","NES","tyrosine kinase inhibitor",0.39698,1.15,0.324,124,0.385
+"PLK inhibitor","NES","EGFR inhibitor",-0.34258,-1.06,0.379,121,0.489
+"PLK inhibitor","NES","Abl kinase inhibitor",-0.36741,-1.14,0.309,115,0.548
+"PLK inhibitor","NES","AKT inhibitor",-0.34617,-1.09,0.359,196,0.527
+"PLK inhibitor","NES","Aurora kinase inhibitor",0.56311,1.61,0.0591,144,0.168
+"PLK inhibitor","NES","Bcr.Abl kinase inhibitor",-0.36741,-1.15,0.288,115,0.667
+"PLK inhibitor","NES","CDK inhibitor",0.53994,1.53,0.078,149,0.185
+"PLK inhibitor","NES","HDAC inhibitor",0.20511,0.592,0.894,174,0.896
+"PLK inhibitor","NES","JAK inhibitor",0.41853,1.2,0.284,187,0.399
+"PLK inhibitor","NES","MDM inhibitor",-0.70927,-2.19,0.00627,222,0.0257
+"PLK inhibitor","NES","MEK inhibitor",-0.65407,-2.11,0.0126,251,0.0262
+"PLK inhibitor","NES","mTOR inhibitor",0.47293,1.36,0.165,34,0.286
+"PLK inhibitor","NES","PI3K inhibitor",-0.23861,-0.74,0.706,154,0.837
+"PLK inhibitor","NES","protein synthesis inhibitor",0.68167,2.01,0.00152,106,0.0217
+"PLK inhibitor","NES","protein tyrosine kinase inhibitor",-0.22045,-0.692,0.81,69,0.797
+"PLK inhibitor","NES","RAF inhibitor",-0.81305,-2.58,0,280,0.00303
+"PLK inhibitor","NES","topoisomerase inhibitor",0.33756,0.996,0.451,162,0.587
+"PLK inhibitor","NES","tubulin polymerization inhibitor",0.72939,2.09,0.00467,55,0.0254
+"PLK inhibitor","NES","tyrosine kinase inhibitor",0.24579,0.71,0.804,145,0.882
+"protein synthesis inhibitor","NES","EGFR inhibitor",-0.482,-1.52,0.0806,198,0.242
+"protein synthesis inhibitor","NES","Abl kinase inhibitor",-0.33756,-1.06,0.367,207,0.611
+"protein synthesis inhibitor","NES","AKT inhibitor",-0.19258,-0.602,0.881,314,0.884
+"protein synthesis inhibitor","NES","Aurora kinase inhibitor",0.56644,1.65,0.0479,117,0.103
+"protein synthesis inhibitor","NES","Bcr.Abl kinase inhibitor",-0.33756,-1.09,0.385,207,0.704
+"protein synthesis inhibitor","NES","CDK inhibitor",0.45283,1.32,0.184,179,0.281
+"protein synthesis inhibitor","NES","HDAC inhibitor",0.37778,1.1,0.355,204,0.484
+"protein synthesis inhibitor","NES","JAK inhibitor",0.51572,1.49,0.104,159,0.171
+"protein synthesis inhibitor","NES","MDM inhibitor",-0.27622,-0.852,0.585,183,0.699
+"protein synthesis inhibitor","NES","MEK inhibitor",-0.77023,-2.39,0,238,0.00786
+"protein synthesis inhibitor","NES","mTOR inhibitor",0.25083,0.73,0.757,12,0.842
+"protein synthesis inhibitor","NES","PI3K inhibitor",0.3742,1.08,0.404,83,0.454
+"protein synthesis inhibitor","NES","PLK inhibitor",0.56918,1.7,0.0373,142,0.138
+"protein synthesis inhibitor","NES","protein synthesis inhibitor",0.63924,1.85,0.0127,121,0.195
+"protein synthesis inhibitor","NES","protein tyrosine kinase inhibitor",0.18976,0.557,0.928,26,0.919
+"protein synthesis inhibitor","NES","RAF inhibitor",-0.58544,-1.9,0.0207,185,0.0733
+"protein synthesis inhibitor","NES","topoisomerase inhibitor",0.57249,1.67,0.0386,110,0.121
+"protein synthesis inhibitor","NES","tubulin polymerization inhibitor",0.61583,1.79,0.0235,122,0.137
+"protein synthesis inhibitor","NES","tyrosine kinase inhibitor",-0.28997,-0.918,0.517,143,0.707
+"protein tyrosine kinase inhibitor","NES","EGFR inhibitor",0.68942,2.02,0.00931,116,0.096
+"protein tyrosine kinase inhibitor","NES","Abl kinase inhibitor",-0.65815,-2.07,0.00667,206,0.0353
+"protein tyrosine kinase inhibitor","NES","AKT inhibitor",0.34788,1.07,0.342,108,0.537
+"protein tyrosine kinase inhibitor","NES","Aurora kinase inhibitor",0.30097,0.903,0.56,225,0.608
+"protein tyrosine kinase inhibitor","NES","Bcr.Abl kinase inhibitor",-0.65815,-1.99,0.0127,206,0.0342
+"protein tyrosine kinase inhibitor","NES","CDK inhibitor",0.50479,1.51,0.0928,160,0.253
+"protein tyrosine kinase inhibitor","NES","HDAC inhibitor",0.40109,1.23,0.255,155,0.497
+"protein tyrosine kinase inhibitor","NES","JAK inhibitor",-0.40074,-1.2,0.247,200,0.307
+"protein tyrosine kinase inhibitor","NES","MDM inhibitor",-0.50638,-1.57,0.0698,225,0.136
+"protein tyrosine kinase inhibitor","NES","MEK inhibitor",0.22387,0.676,0.773,222,0.802
+"protein tyrosine kinase inhibitor","NES","mTOR inhibitor",0.51757,1.56,0.0879,156,0.279
+"protein tyrosine kinase inhibitor","NES","PI3K inhibitor",0.51923,1.57,0.0946,156,0.404
+"protein tyrosine kinase inhibitor","NES","PLK inhibitor",0.3099,0.921,0.508,221,0.658
+"protein tyrosine kinase inhibitor","NES","protein synthesis inhibitor",0.36334,1.07,0.362,205,0.537
+"protein tyrosine kinase inhibitor","NES","RAF inhibitor",-0.75884,-2.32,0.0024,236,0.0161
+"protein tyrosine kinase inhibitor","NES","topoisomerase inhibitor",-0.48351,-1.49,0.0924,190,0.145
+"protein tyrosine kinase inhibitor","NES","tubulin polymerization inhibitor",-0.2429,-0.722,0.748,123,0.757
+"RAF inhibitor","NES","EGFR inhibitor",-0.65982,-1.94,0.00898,203,0.0661
+"RAF inhibitor","NES","Abl kinase inhibitor",0.72566,2.19,0.00225,55,0.00929
+"RAF inhibitor","NES","AKT inhibitor",-0.31227,-0.926,0.532,174,0.619
+"RAF inhibitor","NES","Aurora kinase inhibitor",-0.55613,-1.59,0.0708,257,0.147
+"RAF inhibitor","NES","Bcr.Abl kinase inhibitor",0.72566,2.19,0.00472,55,0.00929
+"RAF inhibitor","NES","CDK inhibitor",-0.65061,-1.89,0.0157,259,0.0617
+"RAF inhibitor","NES","HDAC inhibitor",-0.31221,-0.908,0.545,162,0.589
+"RAF inhibitor","NES","JAK inhibitor",-0.28716,-0.84,0.624,313,0.623
+"RAF inhibitor","NES","MDM inhibitor",0.65729,2,0.00464,48,0.0209
+"RAF inhibitor","NES","MEK inhibitor",0.55191,1.69,0.0519,112,0.0616
+"RAF inhibitor","NES","mTOR inhibitor",-0.60377,-1.79,0.0146,192,0.0844
+"RAF inhibitor","NES","PI3K inhibitor",-0.55396,-1.61,0.0671,206,0.162
+"RAF inhibitor","NES","PLK inhibitor",-0.67451,-1.96,0.00528,295,0.117
+"RAF inhibitor","NES","protein synthesis inhibitor",-0.39557,-1.17,0.287,125,0.477
+"RAF inhibitor","NES","protein tyrosine kinase inhibitor",-0.53145,-1.5,0.106,169,0.188
+"RAF inhibitor","NES","RAF inhibitor",0.9557,2.95,0,21,0
+"RAF inhibitor","NES","topoisomerase inhibitor",0.46285,1.42,0.123,110,0.125
+"RAF inhibitor","NES","tubulin polymerization inhibitor",-0.39344,-1.15,0.309,120,0.447
+"RAF inhibitor","NES","tyrosine kinase inhibitor",-0.36372,-1.06,0.394,209,0.508
+"topoisomerase inhibitor","NES","EGFR inhibitor",-0.73466,-2.23,0.00242,244,0.0162
+"topoisomerase inhibitor","NES","Abl kinase inhibitor",0.48806,1.36,0.162,127,0.258
+"topoisomerase inhibitor","NES","AKT inhibitor",-0.30851,-0.927,0.535,203,0.69
+"topoisomerase inhibitor","NES","Aurora kinase inhibitor",0.49363,1.4,0.151,168,0.386
+"topoisomerase inhibitor","NES","Bcr.Abl kinase inhibitor",0.48806,1.39,0.151,127,0.322
+"topoisomerase inhibitor","NES","CDK inhibitor",0.28302,0.789,0.664,233,0.692
+"topoisomerase inhibitor","NES","HDAC inhibitor",-0.22222,-0.665,0.841,70,0.828
+"topoisomerase inhibitor","NES","JAK inhibitor",0.62609,1.72,0.0267,81,0.193
+"topoisomerase inhibitor","NES","MDM inhibitor",0.38934,1.11,0.33,68,0.415
+"topoisomerase inhibitor","NES","MEK inhibitor",-0.68315,-2.04,0.00988,237,0.0339
+"topoisomerase inhibitor","NES","mTOR inhibitor",-0.42134,-1.22,0.269,241,0.391
+"topoisomerase inhibitor","NES","PI3K inhibitor",-0.56025,-1.63,0.054,222,0.161
+"topoisomerase inhibitor","NES","PLK inhibitor",0.47045,1.32,0.19,141,0.258
+"topoisomerase inhibitor","NES","protein synthesis inhibitor",0.58228,1.67,0.0419,139,0.167
+"topoisomerase inhibitor","NES","protein tyrosine kinase inhibitor",-0.45278,-1.32,0.185,249,0.37
+"topoisomerase inhibitor","NES","RAF inhibitor",0.38291,1.06,0.392,202,0.423
+"topoisomerase inhibitor","NES","topoisomerase inhibitor",0.70903,1.99,0.00528,37,0.0753
+"topoisomerase inhibitor","NES","tubulin polymerization inhibitor",0.48502,1.37,0.143,144,0.291
+"topoisomerase inhibitor","NES","tyrosine kinase inhibitor",-0.28023,-0.828,0.647,230,0.73
+"tubulin polymerization inhibitor","NES","EGFR inhibitor",-0.42116,-1.26,0.209,144,0.313
+"tubulin polymerization inhibitor","NES","Abl kinase inhibitor",0.25957,0.725,0.773,138,0.86
+"tubulin polymerization inhibitor","NES","AKT inhibitor",-0.52516,-1.66,0.0485,167,0.112
+"tubulin polymerization inhibitor","NES","Aurora kinase inhibitor",0.53822,1.47,0.0973,154,0.245
+"tubulin polymerization inhibitor","NES","Bcr.Abl kinase inhibitor",0.25957,0.713,0.779,138,0.787
+"tubulin polymerization inhibitor","NES","CDK inhibitor",0.43236,1.21,0.272,156,0.324
+"tubulin polymerization inhibitor","NES","HDAC inhibitor",-0.30794,-0.943,0.486,97,0.569
+"tubulin polymerization inhibitor","NES","JAK inhibitor",0.51255,1.42,0.12,84,0.242
+"tubulin polymerization inhibitor","NES","MDM inhibitor",-0.67521,-2.02,0.00345,272,0.0303
+"tubulin polymerization inhibitor","NES","MEK inhibitor",-0.7042,-2.19,0,271,0.0162
+"tubulin polymerization inhibitor","NES","mTOR inhibitor",0.47751,1.32,0.175,79,0.254
+"tubulin polymerization inhibitor","NES","PI3K inhibitor",-0.24606,-0.753,0.753,78,0.738
+"tubulin polymerization inhibitor","NES","PLK inhibitor",0.77673,2.17,0.00145,76,0.00835
+"tubulin polymerization inhibitor","NES","protein synthesis inhibitor",0.62068,1.71,0.0288,89,0.113
+"tubulin polymerization inhibitor","NES","protein tyrosine kinase inhibitor",-0.41824,-1.27,0.207,133,0.367
+"tubulin polymerization inhibitor","NES","RAF inhibitor",-0.80237,-2.47,0,278,0.00309
+"tubulin polymerization inhibitor","NES","topoisomerase inhibitor",0.47942,1.33,0.149,82,0.283
+"tubulin polymerization inhibitor","NES","tubulin polymerization inhibitor",0.75939,2.09,0.00146,51,0.0114
+"tubulin polymerization inhibitor","NES","tyrosine kinase inhibitor",-0.38854,-1.18,0.279,122,0.345
+"tyrosine kinase inhibitor","NES","EGFR inhibitor",0.65286,1.97,0.0138,123,0.123
+"tyrosine kinase inhibitor","NES","Abl kinase inhibitor",-0.68239,-2.08,0.00668,217,0.0211
+"tyrosine kinase inhibitor","NES","AKT inhibitor",-0.2673,-0.828,0.636,85,0.727
+"tyrosine kinase inhibitor","NES","Aurora kinase inhibitor",0.33439,1.01,0.431,218,0.53
+"tyrosine kinase inhibitor","NES","Bcr.Abl kinase inhibitor",-0.68239,-2.08,0.0173,217,0.0211
+"tyrosine kinase inhibitor","NES","CDK inhibitor",0.58781,1.74,0.0453,100,0.2
+"tyrosine kinase inhibitor","NES","HDAC inhibitor",0.37838,1.14,0.331,162,0.491
+"tyrosine kinase inhibitor","NES","JAK inhibitor",-0.43845,-1.36,0.188,212,0.219
+"tyrosine kinase inhibitor","NES","MDM inhibitor",-0.5012,-1.6,0.0667,273,0.117
+"tyrosine kinase inhibitor","NES","MEK inhibitor",0.24596,0.735,0.729,221,0.748
+"tyrosine kinase inhibitor","NES","mTOR inhibitor",0.56032,1.67,0.0561,107,0.181
+"tyrosine kinase inhibitor","NES","PI3K inhibitor",0.48672,1.45,0.118,137,0.337
+"tyrosine kinase inhibitor","NES","PLK inhibitor",0.3551,1.06,0.411,50,0.531
+"tyrosine kinase inhibitor","NES","protein synthesis inhibitor",0.42722,1.28,0.201,188,0.388
+"tyrosine kinase inhibitor","NES","protein tyrosine kinase inhibitor",0.43465,1.29,0.215,146,0.452
+"tyrosine kinase inhibitor","NES","RAF inhibitor",-0.73734,-2.34,0.00226,233,0.0124
+"tyrosine kinase inhibitor","NES","topoisomerase inhibitor",-0.58432,-1.79,0.0495,221,0.0703
+"tyrosine kinase inhibitor","NES","tubulin polymerization inhibitor",-0.15099,-0.468,0.966,169,0.963
+"tyrosine kinase inhibitor","NES","tyrosine kinase inhibitor",0.26427,0.792,0.692,109,0.75
+"VEGFR inhibitor","NES","EGFR inhibitor",0.61683,1.9,0.0178,130,0.206
+"VEGFR inhibitor","NES","Abl kinase inhibitor",0.41447,1.29,0.205,127,0.356
+"VEGFR inhibitor","NES","AKT inhibitor",0.49686,1.51,0.0741,165,0.226
+"VEGFR inhibitor","NES","Aurora kinase inhibitor",0.36607,1.09,0.346,171,0.545
+"VEGFR inhibitor","NES","Bcr.Abl kinase inhibitor",0.41447,1.3,0.178,127,0.401
+"VEGFR inhibitor","NES","CDK inhibitor",-0.30189,-0.922,0.525,96,0.732
+"VEGFR inhibitor","NES","HDAC inhibitor",0.31744,0.976,0.477,20,0.629
+"VEGFR inhibitor","NES","JAK inhibitor",0.6117,1.84,0.029,86,0.142
+"VEGFR inhibitor","NES","MDM inhibitor",-0.42022,-1.23,0.243,195,0.432
+"VEGFR inhibitor","NES","MEK inhibitor",-0.76485,-2.37,0,280,0.00482
+"VEGFR inhibitor","NES","mTOR inhibitor",0.19497,0.587,0.884,261,0.884
+"VEGFR inhibitor","NES","PI3K inhibitor",0.30846,0.97,0.474,116,0.576
+"VEGFR inhibitor","NES","PLK inhibitor",-0.20438,-0.607,0.881,300,1
+"VEGFR inhibitor","NES","protein synthesis inhibitor",0.31013,0.951,0.477,225,0.545
+"VEGFR inhibitor","NES","protein tyrosine kinase inhibitor",0.57404,1.77,0.033,83,0.129
+"VEGFR inhibitor","NES","RAF inhibitor",-0.56646,-1.72,0.0375,179,0.147
+"VEGFR inhibitor","NES","topoisomerase inhibitor",-0.45701,-1.4,0.153,192,0.345
+"VEGFR inhibitor","NES","tubulin polymerization inhibitor",-0.14392,-0.44,0.964,87,0.971
+"VEGFR inhibitor","NES","tyrosine kinase inhibitor",0.54964,1.67,0.0423,83,0.149
