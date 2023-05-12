@@ -1,7 +1,0 @@
-"moa","Rank_metric","Drug_set","ES","NES","p_value","Position_at_max","FDR_q_value"
-"adrenergic receptor agonist","NES","adrenergic receptor agonist",0.86348,2.48,0,45,0
-"glucocorticoid receptor agonist","NES","glucocorticoid receptor agonist",0.74138,2.11,0.0019,83,0.02
-"HDAC inhibitor","NES","HDAC inhibitor",0.74963,2.1,0.00551,62,0.00655
-"HMGCR inhibitor","NES","HMGCR inhibitor",0.59197,1.68,0.028,127,0.0963
-"topoisomerase inhibitor","NES","topoisomerase inhibitor",0.82517,2.21,0.00298,62,0.00406
-"tubulin polymerization inhibitor","NES","tubulin polymerization inhibitor",0.71329,1.99,0.00357,94,0.0518

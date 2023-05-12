@@ -1,8 +1,0 @@
-"moa","Rank_metric","Drug_set","ES","NES","p_value","Position_at_max","FDR_q_value"
-"EGFR inhibitor","NES","EGFR inhibitor",0.97203,2.83,0,12,0
-"FLT3 inhibitor","NES","FLT3 inhibitor",0.8069,2.18,0,34,0.000479
-"KIT inhibitor","NES","KIT inhibitor",0.93662,2.53,0,18,0
-"mTOR inhibitor","NES","mTOR inhibitor",0.97931,2.73,0,9,0
-"PDGFR tyrosine kinase receptor inhibitor","NES","PDGFR tyrosine kinase receptor inhibitor",0.95714,2.49,0,17,0
-"RAF inhibitor","NES","RAF inhibitor",0.82877,2.41,0,30,0
-"VEGFR inhibitor","NES","VEGFR inhibitor",0.97101,2.55,0,17,0

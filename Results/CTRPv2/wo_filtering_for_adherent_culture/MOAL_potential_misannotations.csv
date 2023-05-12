@@ -1,6 +1,0 @@
-"Drug","Rank_metric","Drug_set","ES","NES","p_value","Position_at_max","FDR_q_value","self","qc_pass","moa"
-"OSI.930","Pearson.est","KIT inhibitor",0.35414,0.821,0.711,86,0.782,TRUE,FALSE,"KIT inhibitor, VEGFR inhibitor"
-"OSI.930","Pearson.est","VEGFR inhibitor",0.38031,0.894,0.61,77,0.818,TRUE,FALSE,"KIT inhibitor, VEGFR inhibitor"
-"RAF265","Pearson.est","VEGFR inhibitor",0.25522,0.678,0.859,106,0.937,TRUE,FALSE,"RAF inhibitor, VEGFR inhibitor"
-"tivantinib","Pearson.est","tyrosine kinase inhibitor",-0.53061,-1.48,0.0962,78,0.163,TRUE,FALSE,"tyrosine kinase inhibitor"
-"vandetanib","Pearson.est","VEGFR inhibitor",0.39488,0.88,0.641,74,0.711,TRUE,FALSE,"EGFR inhibitor, RET tyrosine kinase inhibitor, VEGFR inhibitor"
