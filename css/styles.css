@@ -153,7 +153,7 @@ main ul {
 }
 
 .bottom {
-    margin-bottom: 10%;
+    margin-bottom: 12%;
 }
 
 .action {
@@ -294,8 +294,13 @@ footer a {
 
     /* Tablet Viewport: Style rules for nav area */
     .center {
-        width: 40%;
+        width: 80%;
         margin-bottom: 10%;
+    }
+
+    /* Desktop Viewport: Style rules for footer content */
+    footer {
+        position: fixed;
     }
 
     /* Tablet Viewport: Style rule for form element */
@@ -309,7 +314,7 @@ footer a {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 20%;
+        padding-bottom: 12%;
     }
 
 }
@@ -338,6 +343,10 @@ footer a {
     aside {
         grid-column: 1 / span 4;
         font-size: 3em;
+    }
+
+    footer {
+        position: fixed;
     }
 
 }
@@ -384,6 +393,11 @@ footer a {
 
     main h3 {
         font-size: 1.5em;
+    }
+
+    /* Desktop Viewport: Style rules for footer content */
+    footer {
+        position: fixed;
     }
 
     #rank, #signature {
