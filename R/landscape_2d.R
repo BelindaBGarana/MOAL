@@ -205,7 +205,8 @@ landscape_2d <- function(input, drug.moa = NULL, gmt = NULL, drug = "Drug",
       pairs.df$N_sig[k] <- n.sig
       if (self.ij) {
         pairs.df$self[k] <- TRUE
-        if (n.sig == 2) {
+        if (n.sig == 2 & pairs.df$NES_ij[k] > 0 & 
+           pairs.df$NES_ji[k] > 0) {
           valid.MOAs <- c(valid.MOAs, moa.i)
         }
       } else {
