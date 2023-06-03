@@ -143,7 +143,7 @@ ui <- fluidPage(
       # bubble select: remove potentially misannotated drugs? default: fALSE
       radioButtons(inputId = "rm_qc_fail", label = "Remove potentially misannotated drugs from consideration?",
                    choices = c("Yes" = TRUE,
-                               "No" = FALSE), selected = FALSE),
+                               "No" = FALSE), selected = TRUE),
  
       # get drug moa of interest (if any)
       textInput(inputId = "moa", label = "Optional: enter a MOA of interest to view its results separately (case-sensitive; e.g., HMGCR inhibitor)"),
