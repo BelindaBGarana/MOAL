@@ -1,0 +1,28 @@
+"moa","Rank_metric","Drug_set","ES","NES","p_value","Position_at_max","FDR_q_value"
+"adrenergic receptor antagonist","NES","adrenergic receptor antagonist",0.82979,2.32,0,141,0.00079
+"Aurora kinase inhibitor","NES","Aurora kinase inhibitor",0.70127,1.91,0.00604,250,0.0382
+"bacterial 50S ribosomal subunit inhibitor","NES","bacterial 50S ribosomal subunit inhibitor",0.62727,1.68,0.0231,96,0.157
+"bacterial DNA gyrase inhibitor","NES","bacterial DNA gyrase inhibitor",0.52525,1.44,0.0962,381,0.732
+"BCL inhibitor","NES","BCL inhibitor",0.79198,2.35,0,172,0.00531
+"benzodiazepine receptor agonist","NES","benzodiazepine receptor agonist",0.61153,1.76,0.0181,316,0.218
+"CHK inhibitor","NES","CHK inhibitor",0.96617,2.96,0,33,0
+"cyclooxygenase inhibitor","NES","cyclooxygenase inhibitor",0.69173,1.97,0.00312,252,0.101
+"DNA alkylating agent","NES","DNA alkylating agent",0.57716,1.57,0.0685,344,0.331
+"dopamine receptor antagonist","NES","dopamine receptor antagonist",0.65496,1.76,0.023,282,0.42
+"glutamate receptor antagonist","NES","glutamate receptor antagonist",0.83605,2.31,0.00162,136,0.00451
+"glycogen synthase kinase inhibitor","NES","glycogen synthase kinase inhibitor",0.57599,1.61,0.0438,339,0.251
+"histamine receptor antagonist","NES","histamine receptor antagonist",0.74844,2.07,0,206,0.0483
+"HSP inhibitor","NES","HSP inhibitor",0.61952,1.75,0.0124,309,0.484
+"MEK inhibitor","NES","MEK inhibitor",0.84391,2.4,0,139,0.00422
+"microtubule inhibitor","NES","microtubule inhibitor",0.52441,1.44,0.102,385,0.461
+"mTOR inhibitor","NES","mTOR inhibitor",0.79267,2.27,0,177,0.00854
+"phosphatase inhibitor","NES","phosphatase inhibitor",0.34282,0.959,0.486,254,0.829
+"PI3K inhibitor","NES","PI3K inhibitor",0.64187,1.8,0.0122,295,0.119
+"PLK inhibitor","NES","PLK inhibitor",0.77694,2.24,0,184,0.021
+"RAF inhibitor","NES","RAF inhibitor",0.78439,2.18,0,61,0.00973
+"ribonucleotide reductase inhibitor","NES","ribonucleotide reductase inhibitor",0.67419,1.88,0.00671,266,0.0528
+"serotonin receptor antagonist","NES","serotonin receptor antagonist",0.7622,2.11,0,195,0.023
+"sodium channel blocker","NES","sodium channel blocker",0.42217,1.18,0.268,353,0.554
+"topoisomerase inhibitor","NES","topoisomerase inhibitor",0.78518,2.15,0,179,0.00545
+"tubulin polymerization inhibitor","NES","tubulin polymerization inhibitor",0.73392,2.02,0,222,0.0623
+"tyrosine kinase inhibitor","NES","tyrosine kinase inhibitor",0.38048,1.08,0.366,500,0.615
