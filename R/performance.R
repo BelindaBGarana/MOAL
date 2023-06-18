@@ -228,22 +228,20 @@ performance <- function(prediction.result, og.result,
   npv <- 100 * og.insig[2] / sum(c(og.sig[2], og.insig[2]))
   fpr <- 100 - spec
   fnr <- 100 - sens
-  nPairs <- nrow(og.prediction.results)
-  nMOAs <- length(unique(c(og.prediction.results$moa_i,
-                           og.prediction.results$moa_j)))
+  nPairs <- sum(c(og.sig, og.insig))
 
   #### format performance metrics for table
   Metric <- c(
     "Accuracy (%)", "Sensitivity (%)", "Specificity (%)",
     "Positive Predictive Value (%)", "Negative Predictive Value (%)",
     "False Positive Rate (%)", "False Negative Rate (%)",
-    "# of MOA Pairs", "# of MOAs"
+    "# of MOA Pairs"
   )
   perf <- as.data.frame(Metric)
   colnames(perf)[1] <- "Performance Metric"
   perf[, c(prediction.name)] <- c(
     acc, sens, spec, ppv, npv,
-    fpr, fnr, nPairs, nMOAs
+    fpr, fnr, nPairs
   )
 
   #### generate table of performance metrics if n.digits is numeric
@@ -252,7 +250,7 @@ performance <- function(prediction.result, og.result,
     perf.df[, c(prediction.name)] <- format(perf.df[, c(prediction.name)],
       digits = n.digits
     )
-    performance.table <- gridExtra::tableGrob(perf.df)
+    performance.table <- gridExtra::tableGrob(perf.df, rows = NULL)
   } else {
     performance.table <- NULL
     warning(paste(
