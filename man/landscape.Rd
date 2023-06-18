@@ -1,6 +1,6 @@
 \name{landscape}
 \alias{landscape}
-\title{Mechanism-of-action Landscape}
+\title{Mechanism of Action Landscape}
 \usage{
 landscape(drug.sensitivity, drug.moa, gmt = NULL, drug = "Drug",
           moa = "moa", sep = ", ", min.per.set = 5, p = 0.05,
@@ -12,7 +12,7 @@ landscape(drug.sensitivity, drug.moa, gmt = NULL, drug = "Drug",
 }
 \description{
 Uses an input drug sensitivity score data frame to evaluate enrichment
-of drug mechanisms-of-action (moa) for each input moa.
+of drug mechanisms of action (moa) for each input moa.
 }
 
 \arguments{

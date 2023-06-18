@@ -9,7 +9,7 @@ landscape_1d(drug.sensitivity, drug.moa, gmt = NULL, drug = "Drug",
             mtn.plots = FALSE, suppress.warnings = TRUE)
 }
 \description{
-Evaluates correlations between drugs and enrichment of mechanisms-of-action
+Evaluates correlations between drugs and enrichment of mechanisms of action
 (moa) for each input drug.
 }
 

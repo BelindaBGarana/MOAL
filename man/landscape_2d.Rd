@@ -9,7 +9,7 @@ landscape_2d(input, drug.moa = NULL, gmt = NULL, drug = "Drug",
             suppress.warnings = TRUE)
 }
 \description{
-Evaluates enrichment of drug mechanisms-of-action (moa) for each input moa.
+Evaluates enrichment of drug mechanisms of action (moa) for each input moa.
 }
 
 \arguments{

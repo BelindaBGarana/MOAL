@@ -4,22 +4,22 @@
 \usage{
 performance(prediction.result, og.result,
             prediction.name = "Prediction", og.name = "Original",
-            venn.name.size = 13, venn.text.size = 8,
-            corr.metric = "NES_avg", max.overlap = 20)
+            corr.metric = "NES_avg", max.overlap = 20,
+            n.digits = 2)
 }
 \description{
 Evaluates network-level performance of drug sensitivity prediction algorithms
-based on Mechanism-of-action Landscape results.}
+based on Mechanism of Action Landscape results.}
 
 \arguments{
   \item{prediction.result}{Dataframe containing enrichment results for
-  mechanism-of-action (moa) pairs (i.e., results output by landscape or
+  mechanism of action (moa) pairs (i.e., results output by landscape or
   landscape_2d functions) based on predicted drug sensitivity scores.
   Required columns: 'pair', 'self', 'qc_pass', 'percent_overlap', and
   corr.metric.}
 
   \item{og.result}{Dataframe containing enrichment results for
-  mechanism-of-action (moa) pairs (i.e., results output by landscape or
+  mechanism of action (moa) pairs (i.e., results output by landscape or
   landscape_2d functions) based on original drug sensitivity scores (i.e.,
   from a real drug screen). Required columns: 'pair', 'self', 'qc_pass',
   'percent_overlap', and corr.metric.}
@@ -30,17 +30,14 @@ based on Mechanism-of-action Landscape results.}
   \item{og.name}{Character string to use as a name for the og.result.
   Default: "Original".}
 
-  \item{venn.name.size}{Numeric value to control the font size of set names
-  for the output venn.diagram. Default: 13.}
-
-  \item{venn.text.size}{Numeric value to control the font size of text
-  in the output venn.diagram. Default: 8.}
-
   \item{corr.metric}{Name of column containing metric for correlation.
   Default: "NES_avg".}
 
   \item{max.overlap}{Maximum percent overlap between moa pairs labeled
   on scatter plot. Default: 20.}
+
+  \item{n.digits}{Numeric value to control the number of digits to use
+  when rounding performance metrics for performance.table output. Default: 2.}
 }
 
 \value{
@@ -50,9 +47,10 @@ based on Mechanism-of-action Landscape results.}
   \item{scatter.plot.df}{Data frame of overlap of moa pairs evaluated in both
   the prediction.result and the og.result with std used for scatter.plot.}
 
-  \item{venn.diagram}{Venn diagram of moa pairs passing quality control in
-  one or both of the input results (i.e., prediction.result and og.result)
-  which were evaluated in both.}
+  \item{contingency.table}{tableGrob object containing the number of
+  moa pairs found to be significant or insignificant based on measured drug
+  sensitivity values (i.e., in the og.result) compared to the predicted values
+  (e.g., the prediciton.result).}
 
   \item{performance.df}{Data frame containing success rate, false positive
   rate, and false negative rate of prediction.result compared to og.result.}
@@ -63,6 +61,13 @@ based on Mechanism-of-action Landscape results.}
 
 \references{
 https://belindabgarana.github.io/MOAL
+}
+
+\section{Warning}{The input parameter n.digits must be numeric in order to
+get a performance.table output.}
+
+\note{contingency.table and performance.table outputs can each be saved using
+the ggsave function from the R package ggplot2.
 }
 
 \author{Belinda B. Garana
