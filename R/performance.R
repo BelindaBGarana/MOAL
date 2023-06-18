@@ -247,9 +247,16 @@ performance <- function(prediction.result, og.result,
   #### generate table of performance metrics if n.digits is numeric
   if (is.numeric(n.digits)) {
     perf.df <- perf
+
+    # round values for table
     perf.df[, c(prediction.name)] <- format(perf.df[, c(prediction.name)],
       digits = n.digits
     )
+
+    # replace nPairs because it is not a decimal
+    perf.df[nrow(perf.df), c(prediction.name)] <- nPairs
+
+    # create tableGrob
     performance.table <- gridExtra::tableGrob(perf.df, rows = NULL)
   } else {
     performance.table <- NULL
