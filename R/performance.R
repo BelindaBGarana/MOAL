@@ -1,7 +1,7 @@
 performance <- function(prediction.result, og.result,
-                       prediction.name = "Prediction", og.name = "Original",
-                       venn.name.size = 13, venn.text.size = 8,
-                       corr.metric = "NES_avg", max.overlap = 20) {
+                        prediction.name = "Prediction", og.name = "Original",
+                        corr.metric = "NES_avg", max.overlap = 20,
+                        n.digits = 2) {
   # avoid unclear initialization
   qc_pass <- NULL
   self <- NULL
@@ -37,36 +37,35 @@ performance <- function(prediction.result, og.result,
   testthat::expect_is(og.result, "data.frame")
   testthat::expect_is(prediction.name, "character")
   testthat::expect_is(og.name, "character")
-  testthat::expect_is(venn.name.size, "numeric")
-  testthat::expect_is(venn.text.size, "numeric")
   testthat::expect_is(corr.metric, "character")
   testthat::expect_is(max.overlap, "numeric")
+  testthat::expect_is(n.digits, "numeric")
 
   ##### check inputs for required column names
-  if (!all(c("pair", "self", "qc_pass", "percent_overlap", corr.metric) %in%
-        colnames(prediction.result))) {
-    stop(paste("prediction.result must include column names 'pair',",
-               "'self', 'qc_pass', 'percent_overlap', and your corr.metric"))
-  } else if (!all(c("pair", "self", "qc_pass", 'percent_overlap', corr.metric) %in%
-               colnames(og.result))) {
-    stop(paste("og.result must include column names 'pair',",
-               "'self', 'qc_pass', 'percent_overlap', and your corr.metric"))
+  if (!all(c(
+    "pair", "moa_i", "moa_j", "self", "qc_pass",
+    "percent_overlap", corr.metric
+  ) %in%
+    colnames(prediction.result))) {
+    stop(paste(
+      "prediction.result must include column names 'pair', 'moa_i',",
+      "'moa_j', 'self', 'qc_pass', 'percent_overlap',",
+      "and your corr.metric"
+    ))
+  } else if (!all(c("pair", "self", "qc_pass", "percent_overlap",
+                    corr.metric) %in%
+    colnames(og.result))) {
+    stop(paste(
+      "og.result must include column names 'pair', 'moa_i',",
+      "'moa_j', 'self', 'qc_pass', 'percent_overlap',",
+      "and your corr.metric"
+    ))
   }
 
   ##### merge data sets
   og.prediction.results <- merge(og.result, prediction.result,
-                                 by = c("pair", "self"),
-                                 suffixes = c(".og", ".prediction"))
-
-  ##### venn diagram
-  venn.data <- list(
-    "og" = og.prediction.results[og.prediction.results$qc_pass.og, ]$pair,
-    "prediction" =
-      og.prediction.results[og.prediction.results$qc_pass.prediction, ]$pair
-  )
-  venn <- ggvenn::ggvenn(venn.data,
-    set_name_size = venn.name.size,
-    text_size = venn.text.size
+    by = c("pair", "self"),
+    suffixes = c(".og", ".prediction")
   )
 
   ##### prepare data for scatter plot
@@ -77,23 +76,22 @@ performance <- function(prediction.result, og.result,
     og.prediction.results[og.prediction.results$qc_pass.prediction, ]
   ) > 0) {
     og.prediction.results[og.prediction.results$qc_pass.prediction,
-    ]$qc_pass <- "True in prediction"
+                          ]$qc_pass <- "True in prediction"
   }
 
   if (nrow(
     og.prediction.results[og.prediction.results$qc_pass.og, ]
   ) > 0) {
     og.prediction.results[og.prediction.results$qc_pass.og,
-    ]$qc_pass <- "True in og"
+                          ]$qc_pass <- "True in og"
   }
 
   if (nrow(
     og.prediction.results[og.prediction.results$qc_pass.prediction &
-                          og.prediction.results$qc_pass.og, ]
+      og.prediction.results$qc_pass.og, ]
   ) > 0) {
     og.prediction.results[og.prediction.results$qc_pass.prediction &
-                            og.prediction.results$qc_pass.og,
-                          ]$qc_pass <- "True"
+      og.prediction.results$qc_pass.og, ]$qc_pass <- "True"
   }
 
   og.prediction.results$qc_pass <- factor(og.prediction.results$qc_pass,
@@ -118,7 +116,8 @@ performance <- function(prediction.result, og.result,
 
   #### factor pairs based on if they are self or not
   og.prediction.results$self <- factor(og.prediction.results$self,
-                                       levels = c(TRUE, FALSE))
+    levels = c(TRUE, FALSE)
+  )
 
   ##### generate scatter plot
   og.prediction.plot <- ggplot2::ggplot(
@@ -132,18 +131,27 @@ performance <- function(prediction.result, og.result,
     ggplot2::scale_color_discrete(
       name = "Pass QC in",
       breaks = c("True", "True in prediction", "True in og", "False"),
-      labels = c("Both", paste(prediction.name, "only"),
-                 paste(og.name, "only"), "Neither")
+      labels = c(
+        "Both", paste(prediction.name, "only"),
+        paste(og.name, "only"), "Neither"
+      )
     ) +
-    ggplot2::scale_shape_discrete(name = "Self", breaks = c(TRUE, FALSE),
-                                  labels = c("True", "False")) +
-    ggplot2::geom_smooth(method = "lm", linewidth = 1.5, linetype = "solid",
-                         color = "blue", se = TRUE, na.rm = TRUE) +
-    ggplot2::labs(x = paste(og.name, corr.metric),
-                  y = paste(prediction.name, corr.metric)) +
+    ggplot2::scale_shape_discrete(
+      name = "Self", breaks = c(TRUE, FALSE),
+      labels = c("True", "False")
+    ) +
+    ggplot2::geom_smooth(
+      method = "lm", linewidth = 1.5, linetype = "solid",
+      color = "blue", se = TRUE, na.rm = TRUE
+    ) +
+    ggplot2::labs(
+      x = paste(og.name, corr.metric),
+      y = paste(prediction.name, corr.metric)
+    ) +
     ggplot2::geom_text(
       x = min(og.prediction.results[, c(paste0(corr.metric, ".og"))]),
-      y = max(og.prediction.results[, c(paste0(corr.metric, ".prediction"))]),
+      y = max(og.prediction.results[, c(paste0(corr.metric,
+                                               ".prediction"))]),
       vjust = "inward", hjust = "inward",
       colour = "blue", parse = TRUE,
       label = as.character(as.expression(stats_pearson)), size = 14
@@ -152,63 +160,112 @@ performance <- function(prediction.result, og.result,
     bg.theme.larger +
     ggrepel::geom_label_repel(
       data = subset(og.prediction.results, qc_pass == "True" & self == "FALSE" &
-                      percent_overlap.og < max.overlap,
-        mapping = aes(label = pair)
+        percent_overlap.og < max.overlap,
+      mapping = aes(label = pair)
       ), box.padding = 8, label.size = 1,
       aes(label = pair)
     )
 
-  ##### evaluate performance of prediction compared to true drug screen
-  sig.og <-
-    unique(og.prediction.results[og.prediction.results$qc_pass.og, ]$pair)
-  sig.prediction <-
-    unique(og.prediction.results[og.prediction.results$qc_pass.prediction,
-                                 ]$pair)
-  all.sig <- unique(c(sig.og, sig.prediction))
-  success.rate <- 100 *
-    length(sig.og[sig.og %in% sig.prediction]) / length(all.sig)
-  false.pos.rate <- 100 *
-    length(sig.prediction[!(sig.prediction %in% sig.og)]) / length(all.sig)
-  false.neg.rate <- 100 *
-    length(sig.og[!(sig.og %in% sig.prediction)]) / length(all.sig)
-  performance.prediction <- as.data.frame(prediction.name)
-  performance.prediction[, c("success.rate", "false.pos.rate",
-                             "false.neg.rate", "N")] <-
-    c(success.rate, false.pos.rate, false.neg.rate, length(all.sig))
+  ##### generate contingency matrix
+  #### prepare data frame for contingency matrix
+  og.sig <- c(
+    nrow(og.prediction.results[og.prediction.results$qc_pass ==
+      "True", ]), # number sig in both
+    nrow(og.prediction.results[og.prediction.results$qc_pass ==
+      "True in CTRPv2", ])
+  ) # number false insig
+  og.insig <- c(
+    nrow(og.prediction.results[og.prediction.results$qc_pass ==
+      "True in CEVIChE", ]), # number false sig
+    nrow(og.prediction.results[og.prediction.results$qc_pass ==
+      "False", ])
+  ) # number not sig in both
+  contingency <- as.data.frame(og.sig)
+  colnames(contingency)[1] <- "Significant"
+  contingency[, c("Insignificant")] <- c(og.insig)
+  rownames(contingency) <- colnames(contingency)
 
-  #### format performance metrics for table if nonzero
-  performance.rounded <- performance.prediction
+  #### prepare table for contingency matrix
+  contingencyTable <- gridExtra::tableGrob(contingency)
 
-  if (!is.na(success.rate) & success.rate != 0 & success.rate != 100) {
-    performance.rounded$success.rate <-
-      format(performance.rounded$success.rate, digits = 3)
-  }
-
-  if (!is.na(false.pos.rate) & false.pos.rate != 0 & false.pos.rate != 100) {
-    performance.rounded$false.pos.rate <-
-      format(performance.rounded$false.pos.rate, digits = 3)
-  }
-
-  if (!is.na(false.neg.rate) & false.neg.rate != 0 & false.neg.rate != 100) {
-    performance.rounded$false.neg.rate <-
-      format(performance.rounded$false.neg.rate, digits = 3)
-  }
-
-  performance.table <- gridExtra::tableGrob(performance.rounded,
-    cols = c(
-      "Algorithm", "Success Rate (%)",
-      "False Positive Rate (%)",
-      "False Negative Rate (%)",
-      "# Shared MOA Pairs Passing QC"
-    ),
-    rows = NULL
+  ### create plot elements for labels
+  colLabel <- grid::textGrob("    Measured",
+    x = 0, hjust = 0, gp = grid::gpar(fontsize = 23)
   )
+  rowLabel <- grid::textGrob("Predicted",
+    x = 1, hjust = 1, gp = grid::gpar(fontsize = 23)
+  )
+
+  ### add space on plot for labels
+  contingencyTable <-
+    gtable::gtable_add_rows(
+      contingencyTable,
+      unit(2, "line"), 0
+    ) # add blank row at top
+  contingencyTable <-
+    gtable::gtable_add_cols(
+      contingencyTable,
+      grid::grobWidth(rowLabel), 0
+    ) # add blank space on left
+
+  ### add column label
+  contingencyTable <-
+    gtable::gtable_add_grob(contingencyTable, colLabel,
+      t = 1, l = 3, r = ncol(contingency)
+    )
+
+  ### add row label
+  contingencyTable <-
+    gtable::gtable_add_grob(contingencyTable, rowLabel,
+      t = 3, l = 1
+    )
+
+  ##### evaluate performance of prediction compared to true drug screen
+  acc <- 100 * (og.sig[1] + og.insig[2]) / sum(c(og.sig, og.insig))
+  sens <- 100 * og.sig[1] / sum(og.sig)
+  spec <- 100 * og.insig[2] / sum(og.insig)
+  ppv <- 100 * og.sig[1] / sum(c(og.sig[1], og.insig[1]))
+  npv <- 100 * og.insig[2] / sum(c(og.sig[2], og.insig[2]))
+  fpr <- 100 - spec
+  fnr <- 100 - sens
+  nPairs <- nrow(og.prediction.results)
+  nMOAs <- length(unique(c(og.prediction.results$moa_i,
+                           og.prediction.results$moa_j)))
+
+  #### format performance metrics for table
+  Metric <- c(
+    "Accuracy (%)", "Sensitivity (%)", "Specificity (%)",
+    "Positive Predictive Value (%)", "Negative Predictive Value (%)",
+    "False Positive Rate (%)", "False Negative Rate (%)",
+    "# of MOA Pairs", "# of MOAs"
+  )
+  perf <- as.data.frame(Metric)
+  colnames(perf)[1] <- "Performance Metric"
+  perf[, c(prediction.name)] <- c(
+    acc, sens, spec, ppv, npv,
+    fpr, fnr, nPairs, nMOAs
+  )
+
+  #### generate table of performance metrics if n.digits is numeric
+  if (is.numeric(n.digits)) {
+    perf.df <- perf
+    perf.df[, c(prediction.name)] <- format(perf.df[, c(prediction.name)],
+      digits = n.digits
+    )
+    performance.table <- gridExtra::tableGrob(perf.df)
+  } else {
+    performance.table <- NULL
+    warning(paste(
+      "n.digits input must be numeric in order to",
+      "create performance.table output"
+    ))
+  }
 
   return(list(
     scatter.plot = og.prediction.plot,
     scatter.plot.df = og.prediction.results,
-    venn.diagram = venn,
-    performance.df = performance.prediction,
+    contingency.table = contingencyTable,
+    performance.df = perf,
     performance.table = performance.table
   ))
 }
