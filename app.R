@@ -103,7 +103,7 @@ prep.files <- function(drug.dir, moa.dir, moa = "", drug = ""){
 # Define UI for application
 ui <- fluidPage(
   # Application title
-  titlePanel("Mechanism-of-action Landscape: Web Application"),
+  titlePanel("Mechanism of Action Landscape: Web Application"),
   
   # Sidebar with a slider input for number of bins
   sidebarLayout(
