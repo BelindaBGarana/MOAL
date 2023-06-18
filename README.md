@@ -1,4 +1,4 @@
-# Mechanism-of-action Landscape
+# Mechanism of Action Landscape
 
 
 ## Introduction
@@ -7,8 +7,8 @@ Resistance is a major barrier to cancer remission. However, it is not
 practical to test all the millions of potential drug combinations due to
 cost limitations. To help prioritize drug pairings for further
 evaluation, we studied the similarity of drugs grouped by
-mechanisms-of-action (MOA) in published drug screens. With this process,
-termed the Mechanism-of-action Landscape (MOAL), 131 drug MOA pairings
+mechanisms of action (MOA) in published drug screens. With this process,
+termed the Mechanism of Action Landscape (MOAL), 131 drug MOA pairings
 were prioritized from more than 1.8 million potential drug pairings.
 Though this method does not evaluate synergy, it has been used to study
 more than a thousand drugs whereas other methods have only studied on
@@ -366,10 +366,10 @@ least 3 samples (e.g., cell lines) are in the drug sensitivity data
 frame
 
 Required inputs: \* prediction.result: Dataframe containing enrichment
-results for mechanism-of-action (moa) pairs (i.e., results output by
+results for mechanism of action (moa) pairs (i.e., results output by
 landscape or landscape_2d functions) based on predicted drug sensitivity
 scores. \* og.result: Dataframe containing enrichment results for
-mechanism-of-action (moa) pairs (i.e., results output by landscape or
+mechanism of action (moa) pairs (i.e., results output by landscape or
 landscape_2d functions) based on original drug sensitivity scores (i.e.,
 from a real drug screen).
 
