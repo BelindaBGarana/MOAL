@@ -8,7 +8,7 @@
 #
 # Author: Belinda B. Garana; last edit: 2023-05-09
 
-library(shiny);library(utils);library(DT);library(dplyr);
+library(shiny);library(utils);library(DT);library(dplyr);library(sjmisc);
 
 # set illegal filename characters
 illegal.chars <- c("#","<","%",">","!","`","&","'","=","}","/",":","@") # source: https://www.mtu.edu/umc/services/websites/writing/characters-avoid/; would be nice to protect against " and \ too
