@@ -6,7 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-# Author: Belinda B. Garana; last edit: 2023-05-09
+# Author: Belinda B. Garana; last edit: 2023-07-05
 
 library(shiny);library(utils);library(DT);library(dplyr);library(sjmisc);
 
@@ -168,21 +168,9 @@ ui <- fluidPage(
     mainPanel(
       # display plots in tabs
       tabsetPanel(
-        tabPanel("Results for all MOA pairs", DT::dataTableOutput("allResults"),
-                 conditionalPanel(
-                   condition = "output.msg=='Query completed'",
-                   downloadButton(outputId = "allDownload", label = "Download results for all MOA pairs")
-                 )),
-        tabPanel("Results for MOA of interest", DT::dataTableOutput("moaResults"),
-                 conditionalPanel(
-                   condition = "output.msg=='Query completed'",
-                   downloadButton(outputId = "moaDownload", label = "Download results for MOA pair of interest")
-                 )),
-        tabPanel("Results for drug of interest", DT::dataTableOutput("drugResults"),
-                 conditionalPanel(
-                   condition = "output.msg=='Query completed'",
-                   downloadButton(outputId = "drugDownload", label = "Download results for drug of interest")
-                 )),
+        tabPanel("Results for all MOA pairs", DT::dataTableOutput("allResults")),
+        tabPanel("Results for MOA of interest", DT::dataTableOutput("moaResults")),
+        tabPanel("Results for drug of interest", DT::dataTableOutput("drugResults")),
       ),
       
       # output result files (.zip)
@@ -276,8 +264,8 @@ server <- function(input, output) {
                     options = list(order = list(list(3, 'desc'))))
     })
     
-    # output all results for download TO DO (also check on orderClasses above) ####
-    cat(file=stderr(), "About to output results for download", "\n")
+    ## output zip file for download
+    cat(file=stderr(), "About to output zip file for download", "\n")
     output$results <- downloadHandler(
       filename = function(){
         main.name <- paste0("MOAL_results_", screen, "_")
@@ -321,7 +309,6 @@ server <- function(input, output) {
         }
         zip(zipfile=file, files=all.files)}
     )
-    
     output$msg <- renderText({"Query completed"})
   }
   )
